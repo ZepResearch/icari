@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { Component as LiquidChrome } from "@/components/ui/liquid-chrome"
 import { BrainCircuit, Facebook, Instagram, Linkedin, Mail, MapPin, Phone, X, Youtube } from "lucide-react"
+import Image from "next/image"
 
 
 
@@ -67,14 +68,8 @@ const Footer = () => {
     <footer className="relative w-full bg-black text-white overflow-hidden drop-shadow-2xl rounded-tr-[170px]">
       {/* Liquid Chrome Background */}
       <div className="absolute inset-0 z-0">
-        <LiquidChrome
-          baseColor={[0.2, 0.2, 0.2]}
-          speed={0.1}
-          amplitude={0.4}
-          frequencyX={2.0}
-          frequencyY={1.5}
-          interactive={true}
-        />
+      <Image src={'https://plus.unsplash.com/premium_photo-1672089048246-bff8619e93c4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
+       alt="bg" fill className="grayscale rotate-180 opacity-80"/>
       </div>
 
       {/* Footer Content */}
