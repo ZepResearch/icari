@@ -95,6 +95,14 @@ export default function Hero() {
            <span className="font-semibold"> "RobotechSummit</span>  is where tomorrow's technology becomes today's reality. We're not just discussing the future - we're building it together.
            " </p>
           </div>
+          <div className="absolute top-96 right-0 lg:right-10 max-w-xs bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg border z-30">
+            <div className="text-sm text-gray-700 leading-relaxed">
+          <Image src="/assets/zepresearch.png" alt="logo"  width={200} height={200}/>
+          Organized by : <br />
+         <span className="font-bold text-md">ZEP RESEARCH OPC PRIVATE LIMITED</span> 
+            
+             </div>
+          </div>
 
           {/* Large "WITH AI" Text */}
           <div className="absolute bottom-0 right-0 lg:right-10 z-20">
