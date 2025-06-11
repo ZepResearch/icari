@@ -294,7 +294,7 @@ export default function PaperSubmissionPage() {
                     {/* File Upload */}
                     <div className="space-y-2">
                       <label htmlFor="file" className="block text-sm font-medium text-[#1a2e1a]">
-                        Upload Paper (PDF, DOC, DOCX) *
+                        Upload Paper ( DOC, DOCX) *
                       </label>
                       <div className="relative">
                         <input
@@ -303,7 +303,7 @@ export default function PaperSubmissionPage() {
                           name="file"
                           onChange={handleFileChange}
                           required
-                          accept=".pdf,.doc,.docx"
+                          accept=".doc,.docx"
                           className="w-full px-4 py-3 bg-gray-100 shadow-2xs border  rounded-xl text-[#1a2e1a] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-gray-400 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:bg-orange-500/80 file:text-gray-100  hover:file:bg-orange-500/60"
                         />
                         <Upload className="absolute right-3 top-3 h-5 w-5 mt-3 text-[#72684d]" />
