@@ -64,7 +64,7 @@ export default function VenuePage() {
             <div className="col-span-12 lg:col-span-4 flex justify-center items-end h-full">
               <div className="relative">
                 <img
-                  src="assets/Venuw.png"
+                  src="assets/Venue2.png"
                   alt="Conference Technology"
                   className="w-full h-auto min-h-[200px] lg:max-h-[300px] object-contain object-bottom  select-none pointer-events-none " 
                   />
@@ -113,7 +113,7 @@ export default function VenuePage() {
             </p>
           </div>
 
-          <div className="relative w-full h-[300px] mb-12 rounded-xl overflow-hidden shadow-2xl">
+          <div className="relative w-full h-[350px] mb-12 rounded-xl overflow-hidden shadow-2xl">
             <img 
               src="https://plus.unsplash.com/premium_photo-1697729420937-0ecb0ddb6e85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
               alt="Marina Bay Sands Convention Centre"

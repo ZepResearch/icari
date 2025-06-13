@@ -112,7 +112,7 @@ export default function AboutOrganizerPage() {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 font-serif">About Zep Research</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Zep Research is a premier research organization dedicated to advancing scientific knowledge and
+              Zep Research is a premier research organization dedicated to advance scientific knowledge and
               technological innovation. Since our founding, we have been at the forefront of organizing world-class
               conferences, symposiums, and research initiatives that bring together the brightest minds from academia
               and industry.

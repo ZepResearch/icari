@@ -131,11 +131,11 @@ export default function ConferenceSchedule() {
           </div>
 
           {/* Download Schedule Button */}
-          <div className="flex justify-center mt-8">
+          {/* <div className="flex justify-center mt-8">
             <button className="bg-orange-400 hover:bg-orange-600 text-white px-8 py-3 rounded-full font-medium transition-colors duration-300 flex items-center">
               Download Full Schedule
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

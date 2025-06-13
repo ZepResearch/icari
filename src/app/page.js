@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Buttons from "@/components/buttons";
 import CtaHighlight from "@/components/Cta-Highlight";
 import ConferenceTimeline from "@/components/Dates-Timeline";
 import { ConferenceFAQ } from "@/components/FAQ";
@@ -14,6 +15,7 @@ export default function Home() {
     <ConferenceTimeline/>
     <CtaHighlight/>
     <SpeakersPage/>
+    <Buttons/>
     <CTAVenueCard/>
     <ConferenceFAQ/>
   </main>
