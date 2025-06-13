@@ -21,8 +21,9 @@ export default function RegistrationSuccessPage() {
 
                 <h1 className="text-3xl md:text-4xl font-bold text-[black] mb-4">Registration Successful!</h1>
                 <p className="text-black text-lg max-w-2xl">
-                  Thank you for registering for the International Conference on Sustainable Innovation in Food
-                  Technology. We look forward to your participation.
+                  Thank you for registering for the 
+International conference on
+AI & Robotics Innovation. We look forward to your participation.
                 </p>
               </div>
 
