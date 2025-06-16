@@ -2,6 +2,8 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, QuoteIcon, Shield, Sparkles } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { ReserveButton } from "./reserve-button"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -34,17 +36,23 @@ export default function Hero() {
             </h1>
 
             <div className="flex flex-col sm:flex-row gap-4">
+              <Link
+                href="/registration">
               <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold">
                 REGISTER NOW
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
+              </Link>
+              <Link href="/about-organizers">
               <Button
                 variant="outline"
                 className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-3 rounded-lg text-lg font-semibold"
-              >
+                >
                 LEARN MORE
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
+                </Link>
+              <ReserveButton/>
             </div>
 
             <div className="flex sm:flex-row flex-col-reverse items-start sm:items-center justify-center gap-3 px-4 max-w-3xl backdrop-blur-sm bg-gray-50/30 py-4 rounded-3xl md:ml-12">

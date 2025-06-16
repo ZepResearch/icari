@@ -23,7 +23,7 @@ function CtaHighlight() {
       id: 'sponsorship',
       title: 'Sponsorship',
       description: 'Partner with RobotechSummit to showcase your organization\'s commitment to AI and robotics innovation and gain visibility among industry leaders.',
-      href: '/sponsorship',
+      href: '/exhibit-and-sponsor',
       icon: <Presentation/>
     },
     {
@@ -36,17 +36,17 @@ function CtaHighlight() {
     {
       id: 'schedule',
       title: 'Schedule',
-      description: 'Explore our comprehensive 3-day agenda featuring keynotes, panel discussions, workshops, and networking events on AI and robotics innovation.',
+      description: 'Explore our comprehensive 2-day agenda featuring keynotes, panel discussions, workshops, and networking events on AI and robotics innovation.',
       href: '/schedule',
       icon: <Calendar/>
     },
     {
-      id: 'gallery',
-      title: 'Gallery',
-      description: 'Explore our photo gallery showcasing highlights from RobotechSummit conferences. View images from keynote presentations and memorable moments from past events.',
-      href: '/gallery',
-      icon: <Image/>
-    }
+      id: 'organizer',
+      title: 'Organizer',
+      description: 'Meet the organizing team behind RobotechSummit, dedicated to delivering a world-class conference experience for all participants.',
+      href: '/about-organizers',
+      icon: <Users />
+    },
   ]
 
   return (

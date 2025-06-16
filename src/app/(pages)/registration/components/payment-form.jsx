@@ -38,7 +38,7 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[500px] bg-white border border-[#d3e4c5] text-[#1a2e1a]">
+      <DialogContent className="sm:max-w-[500px]  bg-white border border-[#d3e4c5] text-[#1a2e1a]">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold mb-4 text-[#1a2e1a]">Payment Details</DialogTitle>
         </DialogHeader>

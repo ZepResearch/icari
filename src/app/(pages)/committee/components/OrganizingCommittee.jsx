@@ -5,6 +5,8 @@ import { Users, Globe, Award, Loader2, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import PocketBase from "pocketbase"
+import pb from "@/lib/pocketbase"
+import Link from "next/link"
 
 // Committee member type based on the Pocketbase response
 
@@ -16,7 +18,7 @@ export default function CommitteePage() {
   useEffect(() => {
     const fetchCommitteeMembers = async () => {
       try {
-        const pb = new PocketBase("https://icasem-robotechsummit.pockethost.io")
+      
         const records = await pb.collection("ICAIR_committee").getFullList({
           sort: "name",
         })
@@ -237,12 +239,12 @@ export default function CommitteePage() {
                   </div>
                 </Card>
               </div>
-
+ <Link href={'/registration'}>
               <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100 font-semibold px-8">
                 Apply to Join Committee
               </Button>
 
-              
+              </Link>
             </div>
           </Card>
         </div>

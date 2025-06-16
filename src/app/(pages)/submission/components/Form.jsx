@@ -45,7 +45,7 @@ export default function PaperSubmissionPage() {
       }
 
       // Show success toast
-      toast.success("Paper submitted successfully!")
+      toast.success("Thank you submit ICAIR Paper successfully!")
 
       // Redirect to success page
       router.push("/submission/success")

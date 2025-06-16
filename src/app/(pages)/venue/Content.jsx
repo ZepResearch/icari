@@ -1,6 +1,7 @@
 import { MapPin, Clock, Wifi, Car, Utensils, Camera, Building, ArrowRight, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function VenuePage() {
   return (
@@ -448,15 +449,21 @@ export default function VenuePage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link href="/registration" >
                 <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100 font-semibold px-8">
                   Register Now
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
+                </Link>
+                <Link href="/schedule">
                 <Button
                   size="lg"
                     className="bg-white text-orange-600 hover:bg-gray-100 font-semibold px-8"                >
                   View schedule
                 </Button>
+                </Link>
+
+
               </div>
 
              
