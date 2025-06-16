@@ -64,7 +64,7 @@ export default function VenuePage() {
             <div className="col-span-12 lg:col-span-4 flex justify-center items-end h-full">
               <div className="relative">
                 <img
-                  src="assets/Venue2.png"
+                  src="/assets/venue2.png"
                   alt="Conference Technology"
                   className="w-full h-auto min-h-[200px] lg:max-h-[300px] object-contain object-bottom  select-none pointer-events-none " 
                   />
