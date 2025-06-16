@@ -215,8 +215,7 @@ function ExtraContentBelowTabs() {
           <div className="relative">
             <h3 className="text-2xl font-bold text-black mb-3">Ready to Join ICARI 2025?</h3>
             <p className="text-gray-700 mb-6">
-              Register now to secure your spot at the International Conference on Sustainability, Innovation and
-              Future Technologies.
+              Register now to secure your spot at the International Conference on AI & Robotics Innovation.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
