@@ -28,40 +28,7 @@ async function getTimelineData() {
   } catch (error) {
     console.error("Failed to fetch timeline data:", error)
     // Return fallback data in case of error
-    return [
-      {
-        id: "fallback-1",
-        title: "Early bird registration deadline",
-        date: "March 15, 2024",
-        description: "Register early for discounted rates",
-        created: "",
-        updated: "",
-      },
-      {
-        id: "fallback-2",
-        title: "Abstract submission deadline",
-        date: "April 10, 2024",
-        description: "Submit your research abstracts",
-        created: "",
-        updated: "",
-      },
-      {
-        id: "fallback-3",
-        title: "Full paper submission Deadline",
-        date: "May 20, 2024",
-        description: "Submit complete research papers",
-        created: "",
-        updated: "",
-      },
-      {
-        id: "fallback-4",
-        title: "Final Registration Deadline",
-        date: "June 30, 2024",
-        description: "Last chance to register",
-        created: "",
-        updated: "",
-      },
-    ]
+    return 
   }
 }
 
