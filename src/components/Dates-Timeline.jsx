@@ -28,7 +28,7 @@ async function getTimelineData() {
   } catch (error) {
     console.error("Failed to fetch timeline data:", error)
     // Return fallback data in case of error
-    return 
+    return null
   }
 }
 

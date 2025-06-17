@@ -38,19 +38,19 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[500px]  bg-white border border-[#d3e4c5] text-[#1a2e1a]">
+      <DialogContent className="w-[80vw] max-w-[500px] md:max-h-[90vh] max-h-[80vh]  overflow-y-auto bg-white border border-[#d3e4c5] text-[#1a2e1a] mx-auto justify-center ">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold mb-4 text-[#1a2e1a]">Payment Details</DialogTitle>
+          <DialogTitle className="text-xl sm:text-2xl font-bold mb-2 sm:mb-4 text-[#1a2e1a]">Payment Details</DialogTitle>
         </DialogHeader>
 
-        {/* Decorative elements */}
-        <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-r from-rose-400/50 to-orange-300/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-        <div className="absolute bottom-0 left-0 w-32 h-32 bg-gradient-to-r from-rose-400/50 to-orange-300/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+        {/* Decorative elements - hidden on very small screens */}
+        <div className="hidden sm:block absolute top-0 right-0 w-24 sm:w-32 h-24 sm:h-32 bg-gradient-to-r from-rose-400/50 to-orange-300/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
+        <div className="hidden sm:block absolute bottom-0 left-0 w-24 sm:w-32 h-24 sm:h-32 bg-gradient-to-r from-rose-400/50 to-orange-300/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
-        <form onSubmit={handleSubmit} className="space-y-4 relative">
-          <div className="grid grid-cols-2 gap-4">
+        <form onSubmit={handleSubmit} className="space-y-3 sm:space-y-4 relative">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <div>
-              <Label htmlFor="billing_name" className="text-black mb-1">
+              <Label htmlFor="billing_name" className="text-black mb-1 text-sm sm:text-base">
                 Full Name
               </Label>
               <Input
@@ -58,11 +58,11 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_name"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
             <div>
-              <Label htmlFor="billing_email" className="text-black mb-1">
+              <Label htmlFor="billing_email" className="text-black mb-1 text-sm sm:text-base">
                 Email
               </Label>
               <Input
@@ -71,14 +71,14 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 type="email"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <div>
-              <Label htmlFor="billing_organization" className="text-black mb-1">
+              <Label htmlFor="billing_organization" className="text-black mb-1 text-sm sm:text-base">
                 Organization
               </Label>
               <Input
@@ -86,11 +86,11 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_organization"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
             <div>
-              <Label htmlFor="billing_designation" className="text-black mb-1">
+              <Label htmlFor="billing_designation" className="text-black mb-1 text-sm sm:text-base">
                 Designation
               </Label>
               <Input
@@ -98,13 +98,13 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_designation"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
           </div>
 
           <div>
-            <Label htmlFor="billing_address" className="text-black mb-1">
+            <Label htmlFor="billing_address" className="text-black mb-1 text-sm sm:text-base">
               Address
             </Label>
             <Input
@@ -112,13 +112,13 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
               name="billing_address"
               required
               onChange={handleChange}
-              className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+              className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <div>
-              <Label htmlFor="billing_city" className="text-black mb-1">
+              <Label htmlFor="billing_city" className="text-black mb-1 text-sm sm:text-base">
                 City
               </Label>
               <Input
@@ -126,11 +126,11 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_city"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
             <div>
-              <Label htmlFor="billing_state" className="text-black mb-1">
+              <Label htmlFor="billing_state" className="text-black mb-1 text-sm sm:text-base">
                 State
               </Label>
               <Input
@@ -138,14 +138,14 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_state"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
             <div>
-              <Label htmlFor="billing_zip" className="text-black mb-1">
+              <Label htmlFor="billing_zip" className="text-black mb-1 text-sm sm:text-base">
                 ZIP Code
               </Label>
               <Input
@@ -153,11 +153,11 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_zip"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
             <div>
-              <Label htmlFor="billing_country" className="text-black mb-1">
+              <Label htmlFor="billing_country" className="text-black mb-1 text-sm sm:text-base">
                 Country
               </Label>
               <Input
@@ -165,13 +165,13 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
                 name="billing_country"
                 required
                 onChange={handleChange}
-                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+                className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
               />
             </div>
           </div>
 
           <div>
-            <Label htmlFor="billing_tel" className="text-black mb-1">
+            <Label htmlFor="billing_tel" className="text-black mb-1 text-sm sm:text-base">
               Phone Number
             </Label>
             <Input
@@ -180,32 +180,32 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
               type="tel"
               required
               onChange={handleChange}
-              className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500"
+              className="bg-gray-50 border-[1px] border-gray-200 text-black placeholder:text-gray-500 h-10 sm:h-auto text-sm sm:text-base"
             />
           </div>
 
-          <div className="mt-6 space-y-2 p-4 bg-gray-50 rounded-xl border border-gray-200">
-            <div className="flex justify-between">
-              <Label className="text-black mb-1">Ticket Type:</Label>
-              <div className="font-medium text-black">{ticketName}</div>
+          <div className="mt-4 sm:mt-6 space-y-2 p-3 sm:p-4 bg-gray-50 rounded-xl border border-gray-200">
+            <div className="flex justify-between items-center">
+              <Label className="text-black mb-1 text-sm sm:text-base">Ticket Type:</Label>
+              <div className="font-medium text-black text-sm sm:text-base text-right max-w-[60%] break-words">{ticketName}</div>
             </div>
-            <div className="flex justify-between">
-              <Label className="text-black mb-1">Subtotal:</Label>
-              <div className="font-medium text-black">
+            <div className="flex justify-between items-center">
+              <Label className="text-black mb-1 text-sm sm:text-base">Subtotal:</Label>
+              <div className="font-medium text-black text-sm sm:text-base">
                 {currencySymbol}
                 {amount.toFixed(2)}
               </div>
             </div>
-            <div className="flex justify-between">
-              <Label className="text-black mb-1">Tax ({(taxRate * 100).toFixed(0)}%):</Label>
-              <div className="font-medium text-black">
+            <div className="flex justify-between items-center">
+              <Label className="text-black mb-1 text-sm sm:text-base">Tax ({(taxRate * 100).toFixed(0)}%):</Label>
+              <div className="font-medium text-black text-sm sm:text-base">
                 {currencySymbol}
                 {taxAmount.toFixed(2)}
               </div>
             </div>
-            <div className="flex justify-between pt-2 border-t border-gray-200">
-              <Label className="text-black mb-1">Total Amount:</Label>
-              <div className="text-xl font-bold text-black">
+            <div className="flex justify-between items-center pt-2 border-t border-gray-200">
+              <Label className="text-black mb-1 text-sm sm:text-base font-semibold">Total Amount:</Label>
+              <div className="text-lg sm:text-xl font-bold text-black">
                 {currencySymbol}
                 {totalAmount.toFixed(2)}
               </div>
@@ -215,15 +215,19 @@ export function PaymentForm({ isOpen, onClose, ticketName, amount, taxRate, curr
           <Button
             type="submit"
             disabled={isLoading}
-            className="w-full mt-6 bg-gradient-to-r from-rose-400 to-orange-300 hover:from-rose-500 hover:to-orange-400 text-white rounded-full h-12"
+            className="w-full mt-4 sm:mt-6 bg-gradient-to-r from-rose-400 to-orange-300 hover:from-rose-500 hover:to-orange-400 text-white rounded-full h-10 sm:h-12 text-sm sm:text-base"
           >
             {isLoading ? (
               <>
-                <Loader2 className="mr-2 h-4 w-4 animate-spin" /> Processing...
+                <Loader2 className="mr-2 h-3 w-3 sm:h-4 sm:w-4 animate-spin" /> 
+                <span className="hidden xs:inline">Processing...</span>
+                <span className="xs:hidden">Processing</span>
               </>
             ) : (
               <>
-                <CreditCard className="mr-2 h-4 w-4" /> Proceed to Payment
+                <CreditCard className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> 
+                <span className="hidden xs:inline">Proceed to Payment</span>
+                <span className="xs:hidden">Pay Now</span>
               </>
             )}
           </Button>
