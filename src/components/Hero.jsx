@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, QuoteIcon, Shield, Sparkles } from "lucide-react"
+import { ArrowRight, Lectern, QuoteIcon, Shield, Sparkles } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { ReserveButton } from "./reserve-button"
 import Link from "next/link"
@@ -113,11 +113,17 @@ export default function Hero() {
           </div> */}
 
           {/* Large "WITH AI" Text */}
-          <div className="absolute bottom-0 right-0 lg:right-10 z-20">
-            <h2 className="text-4xl lg:text-6xl font-black text-gray-900 font-serif">
-              WITH <span className="text-orange-500">AI</span>
-            </h2>
-          </div>
+          <div className="absolute bottom-4 right-4  rounded-full shadow-lg backdrop-blur-sm ">
+                <div className="flex items-center gap-4 bg-white/80 border border-gray-200 rounded-xl shadow-sm px-5 py-4 max-w-xs">
+              <div className="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-lg bg-gradient-to-br from-slate-100 via-gray-100 to-neutral-50/60">
+                <Lectern/>
+              </div>
+              <div>
+                <div className="font-semibold text-gray-800 text-base">Conference Mode</div>
+                <div className="text-sm text-gray-600 text-center">Virtual <span className="mx-1">+</span> Physical <br />(Hybrid)</div>
+              </div>
+            </div>
+              </div>
         </div>
       </main>
 
