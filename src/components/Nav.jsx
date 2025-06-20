@@ -12,6 +12,7 @@ import {
 } from './ui/navigation-menu'
 import { Sheet, SheetTrigger, SheetContent } from './ui/sheet'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const navLinks = [
   {
@@ -47,11 +48,11 @@ function Nav() {
       <header className="flex items-center justify-between px-6 py-4 lg:px-12">
           <Link href={"/"}>
         <div className="flex items-center space-x-2">
-          <div className="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center">
-            {/* <Image src={"/assets/logo.png"} alt='logo' height={500} width={500} className="w-6 h-6 text-white" /> */}
-            <BrainCircuit className="w-6 h-6 text-white" />
-          </div>
-          <span className="text-xl font-semibold text-gray-900 ">Robotech<span className='text-orange-500'>Summit</span></span>
+          {/* <div className="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center"> */}
+            <Image src={"/logo.svg"} alt='logo' height={100} width={270} className=" text-white" />
+            {/* <BrainCircuit className="w-6 h-6 text-white" /> */}
+          {/* </div> */}
+          {/* <span className="text-xl font-semibold text-gray-900 ">Robotech<span className='text-orange-500'>Summit</span></span> */}
         </div>
           </Link>
 

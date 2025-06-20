@@ -79,11 +79,10 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
 
           <div className="flex items-center space-x-2 mb-4">
-          <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center">
-            {/* <Image src={"/assets/logo.png"} alt='logo' height={500} width={500} className="w-6 h-6 text-white" /> */}
-            <BrainCircuit className="w-6 h-6 text-black" />
-          </div>
-          <span className="text-xl font-semibold text-gray-50 ">Robotech<span className='text-orange-500'>Summit</span></span>
+            <Image src={"/logowhite.svg"} alt='logo' height={100} width={280} className=" text-white" />
+            {/* <BrainCircuit className="w-6 h-6 text-black" /> */}
+     
+          {/* <span className="text-xl font-semibold text-gray-50 ">Robotech<span className='text-orange-500'>Summit</span></span> */}
         </div>
             <p className="text-gray-300 mb-4">
               International Conference on AI & Robotics Innovation - Shaping the future of technology through
