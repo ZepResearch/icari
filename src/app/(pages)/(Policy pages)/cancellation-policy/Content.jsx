@@ -54,18 +54,18 @@ export default function CancellationPolicyPage() {
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4 bg-green-50 p-3 rounded-r">
                       <h4 className="font-semibold text-green-800">90+ days before conference</h4>
-                      <p className="text-green-700">Full refund minus $50 processing fee</p>
+                      <p className="text-green-700">Full refund </p>
                     </div>
-                    <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
+                    {/* <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
                       <h4 className="font-semibold text-yellow-800">60-89 days before conference</h4>
                       <p className="text-yellow-700">75% refund of registration fee</p>
                     </div>
                     <div className="border-l-4 border-orange-500 pl-4 bg-orange-50 p-3 rounded-r">
                       <h4 className="font-semibold text-orange-800">30-59 days before conference</h4>
                       <p className="text-orange-700">50% refund of registration fee</p>
-                    </div>
+                    </div> */}
                     <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded-r">
-                      <h4 className="font-semibold text-red-800">Less than 30 days before conference</h4>
+                      <h4 className="font-semibold text-red-800">Less than 60 days before conference</h4>
                       <p className="text-red-700">No refund available</p>
                     </div>
                   </div>
@@ -131,17 +131,17 @@ export default function CancellationPolicyPage() {
                   <h3 className="font-semibold text-gray-900 mb-3">Exhibition Booth Cancellation</h3>
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4 bg-green-50 p-3 rounded-r">
-                      <h4 className="font-semibold text-green-800">120+ days before conference</h4>
-                      <p className="text-green-700">Full refund minus $500 processing fee</p>
+                      <h4 className="font-semibold text-green-800">60+ days before conference</h4>
+                      <p className="text-green-700">Full refund </p>
                     </div>
-                    <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
+                    {/* <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
                       <h4 className="font-semibold text-yellow-800">90-119 days before conference</h4>
                       <p className="text-yellow-700">75% refund of booth fee</p>
                     </div>
                     <div className="border-l-4 border-orange-500 pl-4 bg-orange-50 p-3 rounded-r">
                       <h4 className="font-semibold text-orange-800">60-89 days before conference</h4>
                       <p className="text-orange-700">50% refund of booth fee</p>
-                    </div>
+                    </div> */}
                     <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded-r">
                       <h4 className="font-semibold text-red-800">Less than 60 days before conference</h4>
                       <p className="text-red-700">No refund available</p>
@@ -152,19 +152,19 @@ export default function CancellationPolicyPage() {
                   <h3 className="font-semibold text-gray-900 mb-3">Sponsorship Cancellation</h3>
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4 bg-green-50 p-3 rounded-r">
-                      <h4 className="font-semibold text-green-800">150+ days before conference</h4>
-                      <p className="text-green-700">75% refund of sponsorship fee</p>
+                      <h4 className="font-semibold text-green-800">60 days before conference</h4>
+                      <p className="text-green-700">100% refund of sponsorship fee</p>
                     </div>
-                    <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
+                    {/* <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
                       <h4 className="font-semibold text-yellow-800">120-149 days before conference</h4>
                       <p className="text-yellow-700">50% refund of sponsorship fee</p>
                     </div>
                     <div className="border-l-4 border-orange-500 pl-4 bg-orange-50 p-3 rounded-r">
                       <h4 className="font-semibold text-orange-800">90-119 days before conference</h4>
                       <p className="text-orange-700">25% refund of sponsorship fee</p>
-                    </div>
+                    </div> */}
                     <div className="border-l-4 border-red-500 pl-4 bg-red-50 p-3 rounded-r">
-                      <h4 className="font-semibold text-red-800">Less than 90 days before conference</h4>
+                      <h4 className="font-semibold text-red-800">Less than 60 days before conference</h4>
                       <p className="text-red-700">No refund available</p>
                     </div>
                   </div>
@@ -172,53 +172,7 @@ export default function CancellationPolicyPage() {
               </div>
             </Card>
 
-            {/* Force Majeure and Event Cancellation */}
-            <Card className="p-8 bg-white/80 backdrop-blur-sm border-0 shadow-lg">
-              <div className="flex items-start space-x-4 mb-6">
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <AlertCircle className="w-6 h-6 text-orange-600" />
-                </div>
-                <div>
-                  <h2 className="text-2xl font-semibold text-gray-900 mb-4">Force Majeure and Event Cancellation</h2>
-                </div>
-              </div>
-              <div className="space-y-4 text-gray-700">
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Event Cancellation by Organizers</h3>
-                  <p className="mb-2">
-                    If RobotechSummit 2025 is cancelled by the organizers due to circumstances beyond our control:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1 ml-4">
-                    <li>Full refund of registration, exhibition, and sponsorship fees</li>
-                    <li>Refunds processed within 60 business days</li>
-                    <li>No liability for travel, accommodation, or other expenses</li>
-                    <li>Option to transfer registration to future conference (if available)</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Event Postponement</h3>
-                  <p className="mb-2">If the conference is postponed:</p>
-                  <ul className="list-disc list-inside space-y-1 ml-4">
-                    <li>All registrations automatically transfer to new dates</li>
-                    <li>Full refund available if unable to attend new dates</li>
-                    <li>30-day window to request refund after new dates announced</li>
-                    <li>No additional fees for date changes</li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="font-semibold text-gray-900 mb-2">Virtual Conference Option</h3>
-                  <p className="mb-2">
-                    If the conference transitions to virtual format due to unforeseen circumstances:
-                  </p>
-                  <ul className="list-disc list-inside space-y-1 ml-4">
-                    <li>Partial refund available (50% of registration fee)</li>
-                    <li>Full access to virtual conference platform and content</li>
-                    <li>Digital networking opportunities and resources</li>
-                    <li>Option for full refund if virtual format is unacceptable</li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
+           
 
             {/* How to Cancel */}
             <Card className="p-8 bg-white/80 backdrop-blur-sm border-0 shadow-lg">
@@ -234,7 +188,7 @@ export default function CancellationPolicyPage() {
                 <div>
                   <h3 className="font-semibold text-gray-900 mb-2">Cancellation Process</h3>
                   <ol className="list-decimal list-inside space-y-1 ml-4">
-                    <li>Send cancellation request via email to cancellations@robotechsummit.com</li>
+                    <li>Send cancellation request via email to info@robotechsummit.com</li>
                     <li>Include your full name, registration number, and reason for cancellation</li>
                     <li>Receive confirmation email within 2 business days</li>
                     <li>Refund processed according to the applicable schedule above</li>
