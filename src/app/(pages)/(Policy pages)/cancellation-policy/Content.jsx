@@ -53,7 +53,7 @@ export default function CancellationPolicyPage() {
                   <h3 className="font-semibold text-gray-900 mb-3">Refund Schedule</h3>
                   <div className="space-y-4">
                     <div className="border-l-4 border-green-500 pl-4 bg-green-50 p-3 rounded-r">
-                      <h4 className="font-semibold text-green-800">90+ days before conference</h4>
+                      <h4 className="font-semibold text-green-800">60+ days before conference</h4>
                       <p className="text-green-700">Full refund </p>
                     </div>
                     {/* <div className="border-l-4 border-yellow-500 pl-4 bg-yellow-50 p-3 rounded-r">
