@@ -140,7 +140,7 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-300">
               <p className="mb-2 inline-flex gap-4 "> info@robotechsummit.com</p>
-              <p className="mb-2 inline-flex gap-4 uppercase">+91 78488 54815</p>
+              <p className="mb-2 inline-flex gap-4 uppercase">+91 92373 88328</p>
               <p className="inline-flex gap-4 uppercase"> Bhubaneswar ,ODISHA, INDIA</p>
             </address>
           </div>
