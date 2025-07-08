@@ -162,6 +162,10 @@ const Footer = () => {
             <Link href="/cancellation-policy" className="hover:text-white transition-colors">
             Cancellation Policy
             </Link>
+             <Link href="/complaints-policy" className="hover:text-white transition-colors">
+            Complaints Policy
+            </Link>
+            
           </div>
         </div>
       </div>
