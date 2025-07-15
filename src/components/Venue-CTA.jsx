@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, MapPin } from "lucide-react"
+import Link from "next/link"
 
 export default function CTAVenueCard() {
   return (
@@ -23,13 +24,15 @@ export default function CTAVenueCard() {
             State-of-the-art facilities, stunning views, and world-class amenities await you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+            <Link href={'/venue'}>
             <Button className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-lg">
               View Venue Details
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
+            </Link>
             <div className="flex items-center text-gray-600">
               <MapPin className="w-4 h-4 mr-2" />
-              <span>Marina Bay Sands, Singapore</span>
+              <span> Singapore,[Detail venue will declare soon]</span>
             </div>
           </div>
         </div>
