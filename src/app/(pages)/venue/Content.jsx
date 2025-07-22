@@ -181,7 +181,7 @@ export default function VenuePage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <Card className="p-6 bg-white/80 backdrop-blur-sm border-0 shadow-lg">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Marina Bay Sands Convention Centre</h3>
+                <h3 className="text-2xl font-semibold text-gray-900 mb-4">Venue</h3>
                 <div className="space-y-3">
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-orange-500 mt-1" />
@@ -220,7 +220,7 @@ export default function VenuePage() {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">By Car</p>
-                    <p className="text-gray-600">Valet parking available, self-parking at Marina Bay Sands</p>
+                    <p className="text-gray-600">Valet parking available, self-parking at Venue</p>
                   </div>
                 </div>
               </Card>
@@ -426,7 +426,7 @@ export default function VenuePage() {
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl lg:text-5xl font-bold mb-6">Ready to Join Us?</h2>
               <p className="text-xl mb-8 opacity-90">
-                Experience the future of AI and robotics in one of the world's most innovative cities. Marina Bay Sands
+                Experience the future of AI and robotics in one of the world's most innovative cities. We
                 offers the perfect backdrop for groundbreaking discoveries and meaningful connections.
               </p>
 

@@ -17,10 +17,10 @@ export default function CTAVenueCard() {
         {/* Right side - Content */}
         <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Experience Innovation at Marina Bay Sands
+            Experience Innovation at Singapore
           </h2>
           <p className="text-gray-500 mb-6">
-            Join us at Singapore's iconic Marina Bay Sands Convention Centre for an immersive conference experience. 
+            Join us at Singapore  for an immersive conference experience. 
             State-of-the-art facilities, stunning views, and world-class amenities await you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
