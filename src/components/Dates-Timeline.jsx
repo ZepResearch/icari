@@ -1,6 +1,7 @@
+'use client'
 import pb from "@/lib/pocketbase"
 import { Calendar, Clock, FileText, UserCheck } from "lucide-react"
-import PocketBase from "pocketbase"
+import { useEffect, useState } from "react"
 
 // Define the type for our timeline data
 
@@ -15,26 +16,30 @@ const getIconForTitle = (title) => {
 }
 
 // Server Component to fetch data
-async function getTimelineData() {
-  try {
-  
 
-    // Fetch all records from ICAIR_dates collection
-    const records = await pb.collection("ICAIR_dates").getFullList({
-      sort: "created", // Sort by creation date
-            expand: "", // Ensures no cached expand data
+export default  function ConferenceTimeline() {
+  const [timelineItems, setTimelineItems] = useState([])
+
+  useEffect(() => {
+    const loadData = async () => {
+      const records = await pb.collection('ICAIR_dates').getFullList({
+        sort: 'created',
+      })
+      setTimelineItems(records)
+    }
+
+    loadData()
+
+    const unsubscribe = pb.collection('ICAIR_dates').subscribe('*', (e) => {
+      loadData()
     })
 
-    return records
-  } catch (error) {
-    console.error("Failed to fetch timeline data:", error)
-    // Return fallback data in case of error
-    return null
-  }
-}
+    return () => {
+      pb.collection('ICAIR_dates').unsubscribe('*')
+    }
+  }, [])
 
-export default async function ConferenceTimeline() {
-  const timelineItems = await getTimelineData()
+
 
   return (
     <div className="min-h-full bg-gray-50 py-24 px-4">
