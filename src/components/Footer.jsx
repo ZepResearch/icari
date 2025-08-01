@@ -152,20 +152,31 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-50 text-center text-sm text-gray-100">
           <p>© {new Date().getFullYear()} RobotechSummit. All rights reserved.</p>
-          <div className="mt-2 flex justify-center space-x-4">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">
+          <div className="mt-5 flex justify-center space-x-8  transition-colors">
+            <Link href="/privacy-policy" className="hover:text-orange-300 transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms-of-service" className="hover:text-white transition-colors">
+            <Link href="/terms-of-service" className="hover:text-orange-300 transition-colors">
               Terms of Service
             </Link>
-            <Link href="/cancellation-policy" className="hover:text-white transition-colors">
+            <Link href="/cancellation-policy" className="hover:text-orange-300 transition-colors">
             Cancellation Policy
             </Link>
-             <Link href="/complaints-policy" className="hover:text-white transition-colors">
+             <Link href="/complaints-policy" className="hover:text-orange-300 transition-colors">
             Complaints Policy
             </Link>
-            
+              
+
+  <Link href="/disability-discrimination-policy" className="hover:text-orange-300 transition-colors">
+Disability Discrimination Policy            </Link>
+              <Link href="/health-and-safety-policy" className="hover:text-orange-300 transition-colors">
+Health and Safety Policy            </Link>
+              <Link href="/equal-treatment-policy" className="hover:text-orange-300 transition-colors">
+Equal Treatment Policy            </Link>
+
+
+              
+
           </div>
         </div>
       </div>
