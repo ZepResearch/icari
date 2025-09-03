@@ -54,26 +54,26 @@ export default function Hero() {
               <ReserveButton className="w-full" />
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 px-4 max-w-3xl backdrop-blur-sm bg-gray-50/30 py-4 rounded-3xl md:ml-12">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 px-4 max-w-3xl backdrop-blur-sm bg-gray-50/30 py-4 rounded-3xl md:ml-12">
               <img
                 src="/assets/scopus.png"
                 alt=""
-                className="h-10 drop-shadow-lg mx-auto"
+                className="h-16 drop-shadow-lg mx-auto"
               />
               <img
                 src="/assets/clarivate.png"
                 alt=""
-                className="h-10 drop-shadow-lg mx-auto"
+                className="h-16 drop-shadow-lg mx-auto"
               />
               <img
                 src="assets/cpd.png"
                 alt=""
-                className="h-16  drop-shadow-lg mx-auto"
+                className="h-26  drop-shadow-lg mx-auto"
               />
               <img
                 src="assets/zepresearch.png"
                 alt=""
-                className="h-10 drop-shadow-lg mx-auto"
+                className="h-12 drop-shadow-lg mx-auto"
               />
             </div>
           </div>
