@@ -30,62 +30,63 @@ export default function Hero() {
         <div className="relative z-10 flex-1 max-w-lg">
           <div className="space-y-8">
             <h1 className="text-4xl lg:text-6xl font-black text-gray-900 leading-none md:leading-16 uppercase text-pretty font-serif ">
-            International conference on 
+              International conference on 
               <br />
               <span className="text-orange-500">AI & Robotics</span> Innovation
             </h1>
 
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/registration">
-              <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold">
-                REGISTER NOW
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <Link href="/registration">
+                <Button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg text-lg font-semibold w-full ">
+                  REGISTER NOW
+                  <ArrowRight className=" w-5 h-5" />
+                </Button>
               </Link>
               <Link href="/about-organizers">
-              <Button
-                variant="outline"
-                className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-3 rounded-lg text-lg font-semibold"
+                <Button
+                  variant="outline"
+                  className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white px-8 py-3 rounded-lg text-lg font-semibold w-full"
                 >
-                LEARN MORE
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-                </Link>
-              <ReserveButton/>
+                  LEARN MORE
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </Button>
+              </Link>
+              <ReserveButton className="w-full" />
             </div>
 
-            <div className="flex sm:flex-row flex-col-reverse items-start sm:items-center justify-center gap-3 px-4 max-w-3xl backdrop-blur-sm bg-gray-50/30 py-4 rounded-3xl md:ml-12">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 px-4 max-w-3xl backdrop-blur-sm bg-gray-50/30 py-4 rounded-3xl md:ml-12">
               <img
                 src="/assets/scopus.png"
                 alt=""
-                className="h-12 drop-shadow-lg"
+                className="h-10 drop-shadow-lg mx-auto"
               />
               <img
                 src="/assets/clarivate.png"
                 alt=""
-                className="h-12 drop-shadow-lg"
+                className="h-10 drop-shadow-lg mx-auto"
+              />
+              <img
+                src="assets/cpd.png"
+                alt=""
+                className="h-16  drop-shadow-lg mx-auto"
               />
               <img
                 src="assets/zepresearch.png"
                 alt=""
-                className="h-12 drop-shadow-lg"
+                className="h-10 drop-shadow-lg mx-auto"
               />
             </div>
-         
           </div>
         </div>
-
-        {/* Right Content */}
-        <div className="relative z-10 flex-1 flex justify-start items-start mt-12 lg:mt-0 mr-2 sm:mr-12">
+        <div className="relative   flex-1  justify-start items-end mt-12 lg:mt-0 mr-2 sm:mr-12">
           {/* Robot Image */}
           <div className="relative z-10">
             <Image
               src="/assets/robote.png"
               alt="AI Robot"
-              width={600}
+              width={800}
               height={800}
-              className="w-full max-w-md lg:max-w-lg mx-auto object-contain object-bottom select-none pointer-events-none drop-shadow-2xl"
+              className="w-full max-w-md lg:max-w-lg  object-contain object-bottom select-none pointer-events-none drop-shadow-2xl mx-0"
               priority
             />
           </div>

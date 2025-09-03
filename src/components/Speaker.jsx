@@ -197,7 +197,7 @@ function SpeakerDetailDialog({
 export default function SpeakersPage() {
   const [speakers, setSpeakers] = useState([])
   const [loading, setLoading] = useState(true)
-  const [activeCategory, setActiveCategory] = useState("Guest Speaker")
+  const [activeCategory, setActiveCategory] = useState("Keynote Speaker")
   const [selectedSpeaker, setSelectedSpeaker] = useState(null)
   const [isDialogOpen, setIsDialogOpen] = useState(false)
 
