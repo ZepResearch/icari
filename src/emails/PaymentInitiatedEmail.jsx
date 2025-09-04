@@ -190,9 +190,7 @@ const RegistrationEmailTemplate = (data) => {
       <body class="grid-pattern">
         <div class="container">
           <div class="header">
-            <div class="logo">
-              <img src="https://robotechsummit.com/logo.svg" alt="RobotechSummit Logo" width="180" height="60">
-            </div>
+            
             <div class="conference-header">
               <div class="conference-title">RobotechSummit</div>
               <div class="conference-subtitle">International Conference on AI & Robotics Innovation</div>
