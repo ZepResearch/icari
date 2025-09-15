@@ -11,7 +11,8 @@ export const dynamic = "force-dynamic"
 // Dynamic metadata generation
 export async function generateMetadata({ params }) {
   try {
-    const journal = await getJournalById(params.id)
+    const resolvedParams = await params
+    const journal = await getJournalById(resolvedParams.id)
     
     if (!journal) {
       return {
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }) {
       ? `https://zep-research.pockethost.io/api/files/Journals/${journal.id}/${journal.imgs}`
       : journal.img || "https://robotechsummit.com/opengraph.png"
 
-    const pageUrl = `https://robotechsummit.com/journals/${params.id}`
+    const pageUrl = `https://robotechsummit.com/journals/${resolvedParams.id}`
 
     return {
       title: `${journalTitle} | RobotechSummit Journal Publications`,
