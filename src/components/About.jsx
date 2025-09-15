@@ -27,11 +27,11 @@ function About() {
         {/* Right Side - Content (Centered) */}
         <div className="lg:w-1/2 px-6 lg:px-12 mt-12 lg:mt-0 flex items-center">
           <div className="max-w-xl mx-auto lg:mx-0">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-8 text-gray-900 font-serif  ">
+            <h2 className="text-4xl lg:text-5xl font-bold mb-8 text-gray-900 font-serif  ">
               Let's Get   Closer<br />
               About <br />
               <span className="text-orange-500">AI & Robotics </span>Innovation
-            </h1>
+            </h2>
 
             <div className="space-y-6 text-gray-700">
               <p className="text-lg leading-relaxed">

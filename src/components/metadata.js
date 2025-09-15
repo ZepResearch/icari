@@ -18,14 +18,14 @@ export const aboutConferenceMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/about-conference",
+    url: "https://robotechsummit.com/about-conference",
     title: "About Conference | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Learn about RobotechSummit 2025, the premier international conference connecting researchers, professionals, and innovators focused on AI and robotics innovation in Singapore.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Conference Overview",
@@ -38,12 +38,12 @@ export const aboutConferenceMetadata = {
     title: "About Conference | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Learn about RobotechSummit 2025, the premier international conference connecting researchers, professionals, and innovators focused on AI and robotics innovation in Singapore.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/about-conference",
+    canonical: "https://robotechsummit.com/about-conference",
   },
 
   // Structured data
@@ -54,7 +54,7 @@ export const aboutConferenceMetadata = {
       name: "About Conference | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Learn about RobotechSummit 2025, the premier international conference connecting researchers, professionals, and innovators focused on AI and robotics innovation in Singapore.",
-      url: "https://www.robotechsummit.com/about-conference",
+      url: "https://robotechsummit.com/about-conference",
       mainEntity: {
         "@type": "Event",
         name: "RobotechSummit 2025 Conference",
@@ -75,7 +75,7 @@ export const aboutConferenceMetadata = {
         organizer: {
           "@type": "Organization",
           name: "RobotechSummit 2025",
-          url: "https://www.robotechsummit.com",
+          url: "https://robotechsummit.com",
           email: "info@robotechsummit.com",
         },
       },
@@ -103,14 +103,14 @@ export const aboutOrganizersMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/about-organizers",
+    url: "https://robotechsummit.com/about-organizers",
     title: "About Organizers | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Meet the team behind RobotechSummit 2025. Learn about our organizing committee, their expertise, vision, and commitment to fostering AI and robotics innovation.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Conference Organizers",
@@ -123,12 +123,12 @@ export const aboutOrganizersMetadata = {
     title: "About Organizers | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Meet the team behind RobotechSummit 2025. Learn about our organizing committee, their expertise, vision, and commitment to fostering AI and robotics innovation.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/about-organizers",
+    canonical: "https://robotechsummit.com/about-organizers",
   },
 
   // Structured data
@@ -139,12 +139,12 @@ export const aboutOrganizersMetadata = {
       name: "About Organizers | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Meet the team behind RobotechSummit 2025. Learn about our organizing committee, their expertise, vision, and commitment to fostering AI and robotics innovation.",
-      url: "https://www.robotechsummit.com/about-organizers",
+      url: "https://robotechsummit.com/about-organizers",
       mainEntity: {
         "@type": "Organization",
         name: "RobotechSummit 2025 Conference Organizers",
         description: "The organizing committee of the International Conference on AI & Robotics Innovation",
-        url: "https://www.robotechsummit.com/about-organizers",
+        url: "https://robotechsummit.com/about-organizers",
       },
     }),
   },
@@ -171,14 +171,14 @@ export const awardsMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/awards",
+    url: "https://robotechsummit.com/awards",
     title: "Conference Awards | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Discover the prestigious awards and recognition opportunities at RobotechSummit 2025. Learn about award categories, eligibility criteria, evaluation process, and previous winners.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Conference Awards",
@@ -191,12 +191,12 @@ export const awardsMetadata = {
     title: "Conference Awards | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Discover the prestigious awards and recognition opportunities at RobotechSummit 2025. Learn about award categories, eligibility criteria, evaluation process, and previous winners.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/awards",
+    canonical: "https://robotechsummit.com/awards",
   },
 
   // Structured data
@@ -207,7 +207,7 @@ export const awardsMetadata = {
       name: "Conference Awards | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Discover the prestigious awards and recognition opportunities at RobotechSummit 2025. Learn about award categories, eligibility criteria, evaluation process, and previous winners.",
-      url: "https://www.robotechsummit.com/awards",
+      url: "https://robotechsummit.com/awards",
       mainEntity: {
         "@type": "ItemList",
         name: "RobotechSummit 2025 Conference Awards",
@@ -255,14 +255,14 @@ export const committeeMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/committee",
+    url: "https://robotechsummit.com/committee",
     title: "Program Committee | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Meet our distinguished program committee members who review submissions, chair sessions, and ensure the highest quality content at RobotechSummit 2025. Learn about their expertise in AI and robotics innovation.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Program Committee",
@@ -275,12 +275,12 @@ export const committeeMetadata = {
     title: "Program Committee | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Meet our distinguished program committee members who review submissions, chair sessions, and ensure the highest quality content at RobotechSummit 2025. Learn about their expertise in AI and robotics innovation.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/committee",
+    canonical: "https://robotechsummit.com/committee",
   },
 
   // Structured data
@@ -291,12 +291,12 @@ export const committeeMetadata = {
       name: "Program Committee | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Meet our distinguished program committee members who review submissions, chair sessions, and ensure the highest quality content at RobotechSummit 2025. Learn about their expertise in AI and robotics innovation.",
-      url: "https://www.robotechsummit.com/committee",
+      url: "https://robotechsummit.com/committee",
       mainEntity: {
         "@type": "Organization",
         name: "RobotechSummit 2025 Program Committee",
         description: "The scientific and program committee of the International Conference on AI & Robotics Innovation",
-        url: "https://www.robotechsummit.com/committee",
+        url: "https://robotechsummit.com/committee",
       },
     }),
   },
@@ -322,14 +322,14 @@ export const contactMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/contact",
+    url: "https://robotechsummit.com/contact",
     title: "Contact Us | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Get in touch with the RobotechSummit 2025 team. Find contact information for general inquiries, submission questions, technical support, and sponsorship opportunities for our Singapore conference.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Contact Information",
@@ -342,12 +342,12 @@ export const contactMetadata = {
     title: "Contact Us | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Get in touch with the RobotechSummit 2025 team. Find contact information for general inquiries, submission questions, technical support, and sponsorship opportunities for our Singapore conference.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/contact",
+    canonical: "https://robotechsummit.com/contact",
   },
 
   // Structured data
@@ -358,11 +358,11 @@ export const contactMetadata = {
       name: "Contact Us | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Get in touch with the RobotechSummit 2025 team. Find contact information for general inquiries, submission questions, technical support, and sponsorship opportunities for our Singapore conference.",
-      url: "https://www.robotechsummit.com/contact",
+      url: "https://robotechsummit.com/contact",
       mainEntity: {
         "@type": "Organization",
         name: "RobotechSummit 2025",
-        url: "https://www.robotechsummit.com",
+        url: "https://robotechsummit.com",
         contactPoint: {
           "@type": "ContactPoint",
           email: "info@robotechsummit.com",
@@ -393,14 +393,14 @@ export const exhibitSponsorMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/exhibit-and-sponsor",
+    url: "https://robotechsummit.com/exhibit-and-sponsor",
     title: "Exhibit & Sponsorship | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Discover sponsorship and exhibition opportunities at RobotechSummit 2025 in Singapore. Learn about packages, benefits, visibility options, and how to showcase your organization to our diverse audience focused on AI and robotics.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Sponsorship Opportunities",
@@ -413,12 +413,12 @@ export const exhibitSponsorMetadata = {
     title: "Exhibit & Sponsorship | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Discover sponsorship and exhibition opportunities at RobotechSummit 2025 in Singapore. Learn about packages, benefits, visibility options, and how to showcase your organization to our diverse audience focused on AI and robotics.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/exhibit-and-sponsor",
+    canonical: "https://robotechsummit.com/exhibit-and-sponsor",
   },
 
   // Structured data
@@ -429,7 +429,7 @@ export const exhibitSponsorMetadata = {
       name: "Exhibit & Sponsorship | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Discover sponsorship and exhibition opportunities at RobotechSummit 2025 in Singapore. Learn about packages, benefits, visibility options, and how to showcase your organization to our diverse audience focused on AI and robotics.",
-      url: "https://www.robotechsummit.com/exhibit-and-sponsor",
+      url: "https://robotechsummit.com/exhibit-and-sponsor",
       mainEntity: {
         "@type": "Service",
         name: "RobotechSummit 2025 Sponsorship Program",
@@ -437,7 +437,7 @@ export const exhibitSponsorMetadata = {
         provider: {
           "@type": "Organization",
           name: "RobotechSummit 2025",
-          url: "https://www.robotechsummit.com"
+          url: "https://robotechsummit.com"
         },
         offers: {
           "@type": "AggregateOffer",
@@ -471,14 +471,14 @@ export const journalsMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/journals",
+    url: "https://robotechsummit.com/journals",
     title: "Associated Journals | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Associated Journals",
@@ -491,12 +491,12 @@ export const journalsMetadata = {
     title: "Associated Journals | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/journals",
+    canonical: "https://robotechsummit.com/journals",
   },
 
   // Structured data
@@ -507,7 +507,7 @@ export const journalsMetadata = {
       name: "Associated Journals | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
-      url: "https://www.robotechsummit.com/journals",
+      url: "https://robotechsummit.com/journals",
       mainEntity: {
         "@type": "ItemList",
         name: "RobotechSummit 2025 Associated Journals",
@@ -554,14 +554,14 @@ export const presentationModeMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/mode-of-presentation",
+    url: "https://robotechsummit.com/mode-of-presentation",
     title: "Presentation Modes | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Understand the different presentation formats available at RobotechSummit 2025 in Singapore. Learn about oral presentations, poster sessions, workshops, panel discussions, and technical requirements.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Presentation Formats",
@@ -574,12 +574,12 @@ export const presentationModeMetadata = {
     title: "Presentation Modes | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Understand the different presentation formats available at RobotechSummit 2025 in Singapore. Learn about oral presentations, poster sessions, workshops, panel discussions, and technical requirements.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/mode-of-presentation",
+    canonical: "https://robotechsummit.com/mode-of-presentation",
   },
 
   // Structured data
@@ -590,7 +590,7 @@ export const presentationModeMetadata = {
       name: "Presentation Modes | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Understand the different presentation formats available at RobotechSummit 2025 in Singapore. Learn about oral presentations, poster sessions, workshops, panel discussions, and technical requirements.",
-      url: "https://www.robotechsummit.com/mode-of-presentation",
+      url: "https://robotechsummit.com/mode-of-presentation",
       mainEntity: {
         "@type": "ItemList",
         name: "RobotechSummit 2025 Presentation Formats",
@@ -642,14 +642,14 @@ export const papersFormatMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/papers-format",
+    url: "https://robotechsummit.com/papers-format",
     title: "Paper Format Guidelines | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Access detailed formatting guidelines for RobotechSummit 2025 submissions. Learn about paper structure, length requirements, citation style, figure formatting, and submission process for AI and robotics research.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Paper Format Guidelines",
@@ -662,12 +662,12 @@ export const papersFormatMetadata = {
     title: "Paper Format Guidelines | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
     description:
       "Access detailed formatting guidelines for RobotechSummit 2025 submissions. Learn about paper structure, length requirements, citation style, figure formatting, and submission process for AI and robotics research.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/papers-format",
+    canonical: "https://robotechsummit.com/papers-format",
   },
 
   // Structured data
@@ -678,7 +678,7 @@ export const papersFormatMetadata = {
       name: "Paper Format Guidelines | RobotechSummit 2025: International Conference on AI & Robotics Innovation",
       description:
         "Access detailed formatting guidelines for RobotechSummit 2025 submissions. Learn about paper structure, length requirements, citation style, figure formatting, and submission process for AI and robotics research.",
-      url: "https://www.robotechsummit.com/papers-format",
+      url: "https://robotechsummit.com/papers-format",
       mainEntity: {
         "@type": "HowTo",
         name: "RobotechSummit 2025 Paper Formatting Guidelines",
@@ -729,14 +729,14 @@ export const paymentMetadataSuccess = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/success",
+    url: "https://robotechsummit.com/success",
     title: "Payment Successful | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Your payment for RobotechSummit 2025 in Singapore was successful. Find details about your registration, payment confirmation, receipts, and next steps for conference participation.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Payment Confirmation",
@@ -749,12 +749,12 @@ export const paymentMetadataSuccess = {
     title: "Payment Successful | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Your payment for RobotechSummit 2025 in Singapore was successful. Find details about your registration, payment confirmation, receipts, and next steps for conference participation.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/success",
+    canonical: "https://robotechsummit.com/success",
   },
 
   // Structured data
@@ -765,7 +765,7 @@ export const paymentMetadataSuccess = {
       name: "Payment Successful | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Your payment for RobotechSummit 2025 in Singapore was successful. Find details about your registration, payment confirmation, receipts, and next steps for conference participation.",
-      url: "https://www.robotechsummit.com/success",
+      url: "https://robotechsummit.com/success",
       mainEntity: {
         "@type": "Service",
         name: "RobotechSummit 2025 Registration Payment",
@@ -773,7 +773,7 @@ export const paymentMetadataSuccess = {
         provider: {
           "@type": "Organization",
           name: "RobotechSummit 2025",
-          url: "https://www.robotechsummit.com",
+          url: "https://robotechsummit.com",
           email: "info@robotechsummit.com"
         },
         offers: {
@@ -808,14 +808,14 @@ export const paymentMetadataFailed = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/failed",
+    url: "https://robotechsummit.com/failed",
     title: "Payment Information | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Find detailed payment information for RobotechSummit registration. Learn about payment methods, invoicing, receipts, taxes, group discounts, and financial assistance options.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Payment Information",
@@ -828,12 +828,12 @@ export const paymentMetadataFailed = {
     title: "Payment Information | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Find detailed payment information for RobotechSummit registration. Learn about payment methods, invoicing, receipts, taxes, group discounts, and financial assistance options.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/failed",
+    canonical: "https://robotechsummit.com/failed",
   },
 
   // Structured data
@@ -844,7 +844,7 @@ export const paymentMetadataFailed = {
       name: "Payment Information | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Find detailed payment information for RobotechSummit registration. Learn about payment methods, invoicing, receipts, taxes, group discounts, and financial assistance options.",
-      url: "https://www.robotechsummit.com/failed",
+      url: "https://robotechsummit.com/failed",
       mainEntity: {
         "@type": "Service",
         name: "RobotechSummit Registration Payment",
@@ -852,7 +852,7 @@ export const paymentMetadataFailed = {
         provider: {
           "@type": "Organization",
           name: "RobotechSummit",
-          url: "https://www.robotechsummit.com",
+          url: "https://robotechsummit.com",
           email: "info@robotechsummit.com"
         },
         offers: {
@@ -888,14 +888,14 @@ export const registrationMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/registration",
+    url: "https://robotechsummit.com/registration",
     title: "Registration | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Register for RobotechSummit 2025 in Singapore. Learn about registration categories, early bird rates, included benefits, and the registration process.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Registration",
@@ -908,12 +908,12 @@ export const registrationMetadata = {
     title: "Registration | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Register for RobotechSummit 2025 in Singapore. Learn about registration categories, early bird rates, included benefits, and the registration process.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/registration",
+    canonical: "https://robotechsummit.com/registration",
   },
 
   // Structured data
@@ -924,7 +924,7 @@ export const registrationMetadata = {
       name: "Registration | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Register for RobotechSummit 2025 in Singapore. Learn about registration categories, early bird rates, included benefits, and the registration process.",
-      url: "https://www.robotechsummit.com/registration",
+      url: "https://robotechsummit.com/registration",
       mainEntity: {
         "@type": "Service",
         name: "RobotechSummit Registration",
@@ -932,7 +932,7 @@ export const registrationMetadata = {
         provider: {
           "@type": "Organization",
           name: "RobotechSummit",
-          url: "https://www.robotechsummit.com"
+          url: "https://robotechsummit.com"
         },
         offers: {
           "@type": "AggregateOffer",
@@ -966,14 +966,14 @@ export const scheduleMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/schedule",
+    url: "https://robotechsummit.com/schedule",
     title: "Conference Schedule | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "View the complete schedule for RobotechSummit 2025 in Singapore. Explore keynote sessions, presentations, workshops, networking events on November 14-15, 2025.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Conference Schedule",
@@ -986,12 +986,12 @@ export const scheduleMetadata = {
     title: "Conference Schedule | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "View the complete schedule for RobotechSummit 2025 in Singapore. Explore keynote sessions, presentations, workshops, networking events on November 14-15, 2025.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/schedule",
+    canonical: "https://robotechsummit.com/schedule",
   },
 
   // Structured data
@@ -1002,7 +1002,7 @@ export const scheduleMetadata = {
       name: "Conference Schedule | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "View the complete schedule for RobotechSummit 2025 in Singapore. Explore keynote sessions, presentations, workshops, networking events on November 14-15, 2025.",
-      url: "https://www.robotechsummit.com/schedule",
+      url: "https://robotechsummit.com/schedule",
       mainEntity: {
         "@type": "Schedule",
         name: "RobotechSummit Conference Program",
@@ -1065,14 +1065,14 @@ export const submissionSuccessMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/submission/success",
+    url: "https://robotechsummit.com/submission/success",
     title: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Submission Information",
@@ -1085,12 +1085,12 @@ export const submissionSuccessMetadata = {
     title: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/submission/success",
+    canonical: "https://robotechsummit.com/submission/success",
   },
 
   // Structured data
@@ -1101,7 +1101,7 @@ export const submissionSuccessMetadata = {
       name: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
-      url: "https://www.robotechsummit.com/submission/success",
+      url: "https://robotechsummit.com/submission/success",
       mainEntity: {
         "@type": "HowTo",
         name: "RobotechSummit Submission Process",
@@ -1152,14 +1152,14 @@ export const submissionMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/submission",
+    url: "https://robotechsummit.com/submission",
     title: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Submission Information",
@@ -1172,12 +1172,12 @@ export const submissionMetadata = {
     title: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/submission",
+    canonical: "https://robotechsummit.com/submission",
   },
 
   // Structured data
@@ -1188,7 +1188,7 @@ export const submissionMetadata = {
       name: "Paper Submission | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Submit your research to RobotechSummit 2025 in Singapore. Access submission guidelines, important dates, topics of interest, review process details, and submission portal instructions.",
-      url: "https://www.robotechsummit.com/submission",
+      url: "https://robotechsummit.com/submission",
       mainEntity: {
         "@type": "HowTo",
         name: "RobotechSummit Submission Process",
@@ -1240,14 +1240,14 @@ export const themesTopicsMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/theme-and-topics",
+    url: "https://robotechsummit.com/theme-and-topics",
     title: "Themes and Topics | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Explore the diverse themes and topics covered at RobotechSummit 2025 in Singapore. Discover research areas in artificial intelligence, robotics, machine learning, automation, and emerging technologies.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Themes and Topics",
@@ -1260,12 +1260,12 @@ export const themesTopicsMetadata = {
     title: "Themes and Topics | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Explore the diverse themes and topics covered at RobotechSummit 2025 in Singapore. Discover research areas in artificial intelligence, robotics, machine learning, automation, and emerging technologies.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/theme-and-topics",
+    canonical: "https://robotechsummit.com/theme-and-topics",
   },
 
   // Structured data
@@ -1276,7 +1276,7 @@ export const themesTopicsMetadata = {
       name: "Themes and Topics | RobotechSummit: International Conference on AI & Robotics Innovation",
       description:
         "Explore the diverse themes and topics covered at RobotechSummit 2025 in Singapore. Discover research areas in artificial intelligence, robotics, machine learning, automation, and emerging technologies.",
-      url: "https://www.robotechsummit.com/theme-and-topics",
+      url: "https://robotechsummit.com/theme-and-topics",
       mainEntity: {
         "@type": "ItemList",
         name: "RobotechSummit Conference Themes",
@@ -1334,14 +1334,14 @@ export const galleryMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/gallery",
+    url: "https://robotechsummit.com/gallery",
     title: "Photo Gallery | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Browse our photo gallery showcasing highlights from RobotechSummit conferences. View images from keynote presentations, networking events, exhibitions, and memorable moments from past conferences.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/gallery-preview.png",
+        url: "https://robotechsummit.com/gallery-preview.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Conference Photo Gallery",
@@ -1354,12 +1354,12 @@ export const galleryMetadata = {
     title: "Photo Gallery | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Browse our photo gallery showcasing highlights from RobotechSummit conferences. View images from keynote presentations, networking events, exhibitions, and memorable moments from past conferences.",
-    images: ["https://www.robotechsummit.com/gallery-preview.png"],
+    images: ["https://robotechsummit.com/gallery-preview.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/gallery",
+    canonical: "https://robotechsummit.com/gallery",
   },
 
   // Structured data
@@ -1370,7 +1370,7 @@ export const galleryMetadata = {
       name: "RobotechSummit Conference Photo Gallery",
       description:
         "Photo gallery showcasing highlights from the International Conference on AI & Robotics Innovation including keynote presentations, networking events, and exhibitions.",
-      url: "https://www.robotechsummit.com/gallery",
+      url: "https://robotechsummit.com/gallery",
       mainEntity: {
         "@type": "Event",
         name: "International Conference on AI & Robotics Innovation",
@@ -1437,14 +1437,14 @@ export const termsMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/terms-and-conditions",
+    url: "https://robotechsummit.com/terms-of-service",
     title: "Terms and Conditions | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Read the terms and conditions for RobotechSummit conference registration, participation, and attendance. Understand your rights, responsibilities, and legal obligations.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Terms and Conditions",
@@ -1457,12 +1457,12 @@ export const termsMetadata = {
     title: "Terms and Conditions | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Read the terms and conditions for RobotechSummit conference registration, participation, and attendance. Understand your rights, responsibilities, and legal obligations.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/terms-and-conditions",
+    canonical: "https://robotechsummit.com/terms-of-service",
   },
 
   // Structured data
@@ -1473,7 +1473,7 @@ export const termsMetadata = {
       name: "Terms and Conditions | RobotechSummit",
       description:
         "Terms and conditions governing conference registration, participation, and attendance for the International Conference on AI & Robotics Innovation.",
-      url: "https://www.robotechsummit.com/terms-and-conditions",
+      url: "https://robotechsummit.com/terms-of-service",
       about: {
         "@type": "Event",
         name: "International Conference on AI & Robotics Innovation",
@@ -1511,14 +1511,14 @@ export const privacyMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/privacy-policy",
+    url: "https://robotechsummit.com/privacy-policy",
     title: "Privacy Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Learn how RobotechSummit protects your personal information and privacy. Read our comprehensive privacy policy covering data collection, usage, storage, and your privacy rights.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Privacy Policy",
@@ -1531,12 +1531,12 @@ export const privacyMetadata = {
     title: "Privacy Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Learn how RobotechSummit protects your personal information and privacy. Read our comprehensive privacy policy covering data collection, usage, storage, and your privacy rights.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/privacy-policy",
+    canonical: "https://robotechsummit.com/privacy-policy",
   },
 
   // Structured data
@@ -1547,7 +1547,7 @@ export const privacyMetadata = {
       name: "Privacy Policy | RobotechSummit",
       description:
         "Privacy policy explaining how personal information is collected, used, and protected for the International Conference on AI & Robotics Innovation.",
-      url: "https://www.robotechsummit.com/privacy-policy",
+      url: "https://robotechsummit.com/privacy-policy",
       about: {
         "@type": "Organization",
         name: "RobotechSummit",
@@ -1582,14 +1582,14 @@ export const cancellationMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/cancellation-policy",
+    url: "https://robotechsummit.com/cancellation-policy",
     title: "Cancellation Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Review RobotechSummit's cancellation and refund policy for conference registration. Learn about cancellation deadlines, refund procedures, and refund eligibility criteria.",
     siteName: "RobotechSummit",
     images: [
       {
-        url: "https://www.robotechsummit.com/opengraph.png",
+        url: "https://robotechsummit.com/opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit Cancellation Policy",
@@ -1602,12 +1602,12 @@ export const cancellationMetadata = {
     title: "Cancellation Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Review RobotechSummit's cancellation and refund policy for conference registration. Learn about cancellation deadlines, refund procedures, and refund eligibility criteria.",
-    images: ["https://www.robotechsummit.com/opengraph.png"],
+    images: ["https://robotechsummit.com/opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/cancellation-policy",
+    canonical: "https://robotechsummit.com/cancellation-policy",
   },
 
   // Structured data
@@ -1618,7 +1618,7 @@ export const cancellationMetadata = {
       name: "Cancellation Policy | RobotechSummit",
       description:
         "Cancellation and refund policy for the International Conference on AI & Robotics Innovation registration and participation.",
-      url: "https://www.robotechsummit.com/cancellation-policy",
+      url: "https://robotechsummit.com/cancellation-policy",
       about: {
         "@type": "Event",
         name: "International Conference on AI & Robotics Innovation",
@@ -1654,14 +1654,14 @@ export const venueMetadata = {
   // Open Graph / Facebook
   openGraph: {
     type: "website",
-    url: "https://www.robotechsummit.com/venue",
+    url: "https://robotechsummit.com/venue",
     title: "Venue & Location | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Join RobotechSummit 2025 in Singapore, November 14-15. Discover our premium conference venue, accommodation options, travel information, and local attractions in Singapore's innovation district.",
     siteName: "RobotechSummit 2025",
     images: [
       {
-        url: "https://www.robotechsummit.com/venue-opengraph.png",
+        url: "https://robotechsummit.com/venue-opengraph.png",
         width: 1200,
         height: 630,
         alt: "RobotechSummit 2025 Venue in Singapore",
@@ -1674,12 +1674,12 @@ export const venueMetadata = {
     title: "Venue & Location | RobotechSummit: International Conference on AI & Robotics Innovation",
     description:
       "Join RobotechSummit 2025 in Singapore, November 14-15. Discover our premium conference venue, accommodation options, travel information, and local attractions in Singapore's innovation district.",
-    images: ["https://www.robotechsummit.com/venue-opengraph.png"],
+    images: ["https://robotechsummit.com/venue-opengraph.png"],
   },
 
   // Canonical URL
   alternates: {
-    canonical: "https://www.robotechsummit.com/venue",
+    canonical: "https://robotechsummit.com/venue",
   },
 
   // Structured data
@@ -1710,7 +1710,7 @@ export const venueMetadata = {
       organizer: {
         "@type": "Organization",
         name: "RobotechSummit",
-        url: "https://www.robotechsummit.com",
+        url: "https://robotechsummit.com",
         email: "info@robotechsummit.com"
       },
       offers: {
@@ -1721,8 +1721,275 @@ export const venueMetadata = {
         availability: "https://schema.org/InStock",
         validFrom: "2025-01-01"
       },
-      image: "https://www.robotechsummit.com/venue-opengraph.png",
-      url: "https://www.robotechsummit.com/venue"
+      image: "https://robotechsummit.com/venue-opengraph.png",
+      url: "https://robotechsummit.com/venue"
+    }),
+  },
+};
+export const journalMetadata = {
+  title: "Associated Journals | RobotechSummit: International Conference on AI & Robotics Innovation",
+  description:
+    "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
+  keywords: [
+    "RobotechSummit 2025 journals",
+    "AI publications",
+    "robotics research journals",
+    "innovation publications",
+    "special issues",
+    "research publication",
+    "academic journals",
+    "proceedings publication"
+  ],
+
+  // Open Graph / Facebook
+  openGraph: {
+    type: "website",
+    url: "https://robotechsummit.com/journals",
+    title: "Associated Journals | RobotechSummit: International Conference on AI & Robotics Innovation",
+    description:
+      "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
+    siteName: "RobotechSummit",
+    images: [
+      {
+        url: "https://robotechsummit.com/opengraph.png",
+        width: 1200,
+        height: 630,
+        alt: "RobotechSummit Associated Journals",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Associated Journals | RobotechSummit: International Conference on AI & Robotics Innovation",
+    description:
+      "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
+    images: ["https://robotechsummit.com/opengraph.png"],
+  },
+
+  // Canonical URL
+  alternates: {
+    canonical: "https://robotechsummit.com/journals",
+  },
+
+  // Structured data
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Associated Journals | RobotechSummit: International Conference on AI & Robotics Innovation",
+      description:
+        "Explore journal publication opportunities associated with RobotechSummit 2025. Learn about special issues in AI, robotics, and innovation journals, submission guidelines, and how to publish your conference paper.",
+      url: "https://robotechsummit.com/journals",
+      mainEntity: {
+        "@type": "ItemList",
+        name: "RobotechSummit 2025 Associated Journals",
+        description: "Partner journals for publishing RobotechSummit 2025 conference papers",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Journal of Artificial Intelligence Research"
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "International Journal of Robotics Innovation"
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "AI & Robotics Science & Practice"
+          }
+        ]
+      },
+    }),
+  },
+};
+
+
+export const successPageMetadata = {
+  title: "Submission Successful | RobotechSummit Journal Publication",
+  description:
+    "Your research paper has been successfully submitted to RobotechSummit 2025 associated journal. Thank you for your submission! A confirmation email has been sent and our review team will contact you soon.",
+  keywords: [
+    "submission successful",
+    "paper submitted successfully",
+    "RobotechSummit submission confirmation",
+    "journal submission complete",
+    "research paper confirmation",
+    "academic submission success",
+    "manuscript submitted",
+    "peer review process",
+    "publication confirmation"
+  ],
+
+  // Open Graph / Facebook
+  openGraph: {
+    type: "website",
+    url: "https://robotechsummit.com/journals/success",
+    title: "Submission Successful | RobotechSummit Journal Publication",
+    description:
+      "Your research paper has been successfully submitted to RobotechSummit 2025 associated journal. Thank you for your submission! Our review team will contact you soon.",
+    siteName: "RobotechSummit",
+    images: [
+      {
+        url: "https://robotechsummit.com/opengraph.png",
+        width: 1200,
+        height: 630,
+        alt: "RobotechSummit - Submission Successful",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Submission Successful | RobotechSummit Journal Publication",
+    description:
+      "Your research paper has been successfully submitted to RobotechSummit 2025 associated journal. Thank you for your submission!",
+    images: ["https://robotechsummit.com/opengraph.png"],
+  },
+
+  // Canonical URL
+  alternates: {
+    canonical: "https://robotechsummit.com/journals/success",
+  },
+
+  // Robots - prevent indexing of success pages
+  robots: {
+    index: false,
+    follow: true,
+    noarchive: true,
+    nosnippet: true,
+  },
+
+  // Structured data
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Submission Successful | RobotechSummit Journal Publication",
+      description:
+        "Confirmation page for successful research paper submission to RobotechSummit 2025 associated journals.",
+      url: "https://robotechsummit.com/journals/success",
+      mainEntity: {
+        "@type": "Action",
+        "@id": "https://robotechsummit.com/journals/success#submission-confirmation",
+        name: "Journal Submission Confirmation",
+        description: "Successful completion of research paper submission process",
+        actionStatus: "CompletedActionStatus",
+        agent: {
+          "@type": "Organization",
+          name: "RobotechSummit",
+          url: "https://robotechsummit.com"
+        },
+        object: {
+          "@type": "DigitalDocument",
+          name: "Research Paper Submission",
+          description: "Academic research paper submitted for peer review"
+        },
+        result: {
+          "@type": "Message",
+          text: "Submission successful - confirmation email sent"
+        }
+      },
+      breadcrumb: {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: "https://robotechsummit.com"
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "Journals",
+            item: "https://robotechsummit.com/journals"
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: "Submission Successful",
+            item: "https://robotechsummit.com/journals/success"
+          }
+        ]
+      }
+    }),
+  },
+};
+
+export const DisabilityPolicyMetadata = {
+  title: "Disability & Accessibility Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
+  description:
+    "Read RobotechSummit's disability and accessibility policy for our Singapore conference. Learn about accessible venue features, accommodations for attendees with disabilities, and how we support an inclusive event experience.",
+  keywords: [
+    "RobotechSummit accessibility",
+    "disability policy",
+    "conference accessibility",
+    "inclusive event",
+    "accessible venue",
+    "Singapore conference accessibility",
+    "accommodations for disabilities",
+    "assistive services",
+    "inclusive robotics conference"
+  ],
+
+  // Open Graph / Facebook
+  openGraph: {
+    type: "website",
+    url: "https://robotechsummit.com/disability-discrimination-policy",
+    title: "Disability & Accessibility Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
+    description:
+      "Read RobotechSummit's disability and accessibility policy for our Singapore conference. Learn about accessible venue features, accommodations for attendees with disabilities, and how we support an inclusive event experience.",
+    siteName: "RobotechSummit 2025",
+    images: [
+      {
+        url: "https://robotechsummit.com/accessibility-opengraph.png",
+        width: 1200,
+        height: 630,
+        alt: "RobotechSummit Accessibility Policy",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Disability & Accessibility Policy | RobotechSummit: International Conference on AI & Robotics Innovation",
+    description:
+      "Read RobotechSummit's disability and accessibility policy for our Singapore conference. Learn about accessible venue features, accommodations for attendees with disabilities, and how we support an inclusive event experience.",
+    images: ["https://robotechsummit.com/accessibility-opengraph.png"],
+  },
+
+  // Canonical URL
+  alternates: {
+    canonical: "https://robotechsummit.com/disability-discrimination-policy",
+  },
+
+  // Structured data
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Disability & Accessibility Policy | RobotechSummit",
+      description:
+        "Policy outlining accessibility accommodations and support for attendees with disabilities at RobotechSummit 2025 in Singapore.",
+      url: "https://robotechsummit.com/disability-discrimination-policy",
+      about: {
+        "@type": "Event",
+        name: "International Conference on AI & Robotics Innovation",
+        organizer: {
+          "@type": "Organization",
+          name: "RobotechSummit"
+        }
+      },
+      mainEntity: {
+        "@type": "DigitalDocument",
+        name: "Disability & Accessibility Policy",
+        description: "Details on accessible venue features, accommodations, and support services for attendees with disabilities.",
+        about: "Accessibility and inclusion at RobotechSummit 2025"
+      }
     }),
   },
 };

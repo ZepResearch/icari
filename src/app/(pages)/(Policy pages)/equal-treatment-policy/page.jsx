@@ -1,6 +1,23 @@
 import React from 'react';
 import { Scale, Target, Globe, Shield, FileText, Users, AlertCircle, UserCheck } from 'lucide-react';
 
+
+export const metadata = {
+  title: 'Equal Treatment Policy - International Conference on AI & Robotics Innovation',
+  description: 'ICARI 2025 is committed to fostering an inclusive, respectful, and equitable environment for all participants. Read our Equal Treatment Policy for details.',
+  keywords: ['ICARI', 'Equal Treatment', 'Diversity', 'Inclusivity', 'AI conference', 'robotics innovation', 'academic conference Singapore', 'research conference 2025'],
+  alternates: {
+    canonical: 'https://robotechsummit.com/equal-treatment-policy',
+  },
+  openGraph: {
+    title: 'Equal Treatment Policy - ICARI 2025',
+    description: 'Learn about ICARI 2025’s commitment to diversity, inclusivity, and fairness for all conference participants.',
+    type: 'website',
+    locale: 'en_US',
+    site_name: 'ICARI 2025',
+  },
+}
+
 const EqualTreatmentPolicy = () => {
   return (
     <div className="min-h-screen bg-gray-50">

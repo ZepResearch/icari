@@ -8,8 +8,114 @@ import PaperSubmissionForm from "./components/Form"
 
 export const dynamic = "force-dynamic"
 
+// Dynamic metadata generation
+export async function generateMetadata({ params }) {
+  try {
+    const journal = await getJournalById(params.id)
+    
+    if (!journal) {
+      return {
+        title: "Journal Not Found | RobotechSummit",
+        description: "The requested journal could not be found.",
+      }
+    }
+
+    const journalTitle = journal.title || "Untitled Journal"
+    const journalDescription = journal.description || `Submit your research paper to ${journalTitle}. Explore publication opportunities and submission guidelines for this academic journal.`
+    
+    // Generate image URL if available
+    const journalImageUrl = journal.imgs 
+      ? `https://zep-research.pockethost.io/api/files/Journals/${journal.id}/${journal.imgs}`
+      : journal.img || "https://robotechsummit.com/opengraph.png"
+
+    const pageUrl = `https://robotechsummit.com/journals/${params.id}`
+
+    return {
+      title: `${journalTitle} | RobotechSummit Journal Publications`,
+      description: journalDescription,
+      keywords: [
+        journalTitle.toLowerCase(),
+        "research journal",
+        "academic publication",
+        "RobotechSummit 2025",
+        "AI research",
+        "robotics journal",
+        "paper submission",
+        "peer review",
+        ...(journal.issncode ? [`ISSN ${journal.issncode}`] : [])
+      ],
+
+      // Open Graph / Facebook
+      openGraph: {
+        type: "website",
+        url: pageUrl,
+        title: `${journalTitle} | RobotechSummit Journal Publications`,
+        description: journalDescription,
+        siteName: "RobotechSummit",
+        images: [
+          {
+            url: journalImageUrl,
+            width: 1200,
+            height: 630,
+            alt: `${journalTitle} - Research Journal`,
+          },
+        ],
+      },
+
+      // Twitter Card
+      twitter: {
+        card: "summary_large_image",
+        title: `${journalTitle} | RobotechSummit Journal Publications`,
+        description: journalDescription,
+        images: [journalImageUrl],
+      },
+
+      // Canonical URL
+      alternates: {
+        canonical: pageUrl,
+      },
+
+      // Structured Data
+      other: {
+        "application/ld+json": JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          name: `${journalTitle} | RobotechSummit Journal Publications`,
+          description: journalDescription,
+          url: pageUrl,
+          mainEntity: {
+            "@type": "Periodical",
+            name: journalTitle,
+            description: journalDescription,
+            url: pageUrl,
+            ...(journal.issncode && { issn: journal.issncode }),
+            publisher: {
+              "@type": "Organization",
+              name: "RobotechSummit",
+              url: "https://robotechsummit.com"
+            },
+            ...(journal.created && {
+              dateCreated: journal.created,
+            }),
+            ...(journal.updated && {
+              dateModified: journal.updated,
+            })
+          },
+        }),
+      },
+    }
+  } catch (error) {
+    console.error("Error generating metadata:", error)
+    return {
+      title: "Journal | RobotechSummit",
+      description: "Explore journal publication opportunities with RobotechSummit.",
+    }
+  }
+}
+
 export default async function JournalDetailPage({ params }) {
-  const journal = await getJournalById(params.id)
+  const resolvedParams = await params
+  const journal = await getJournalById(resolvedParams.id)
 
   if (!journal) {
     notFound()

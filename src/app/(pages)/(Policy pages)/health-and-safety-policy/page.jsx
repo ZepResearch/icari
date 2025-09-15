@@ -1,6 +1,21 @@
 import React from 'react';
 import { Shield, Heart, AlertTriangle, Users, Activity, RefreshCw, MapPin, Phone } from 'lucide-react';
 
+export const metadata = {
+  title: 'Health and Safety Policy - International Conference on AI & Robotics Innovation',
+  description: 'ICARI 2025 is dedicated to providing a safe, healthy, and secure environment for all participants. Read our Health and Safety Policy for details.',
+  keywords: ['ICARI', 'Health and Safety', 'Conference Safety', 'AI conference', 'robotics innovation', 'academic conference Singapore', 'research conference 2025'],
+  alternates: {
+    canonical: 'https://robotechsummit.com/health-and-safety-policy',
+  },
+  openGraph: {
+    title: 'Health and Safety Policy - ICARI 2025',
+    description: 'Discover ICARI 2025’s commitment to health, safety, and well-being for all conference participants.',
+    type: 'website',
+    locale: 'en_US',
+    site_name: 'ICARI 2025',
+  },
+}
 const HealthSafetyPolicy = () => {
   return (
     <div className="min-h-screen bg-gray-50">
