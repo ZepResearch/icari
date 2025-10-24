@@ -117,7 +117,7 @@ export default function ConferenceSchedule() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">Venue</h3>
-                <p className="text-orange-400 mb-2">Declare soon</p>
+                <p className="text-orange-400 mb-2">Kuala Lumper, Malaysia</p>
                 {/* <p className="text-[#">Ratchadaphisek Road, Bangkok 10110, Thailand</p> */}
               </div>
               <div>

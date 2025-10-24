@@ -47,7 +47,7 @@ export default function RobotechSummitPage() {
             </div>
             <div className="flex items-center space-x-2">
               <MapPin className="w-4 h-4" />
-              <span>Singapore</span>
+              <span>Kuala Lumper, Malaysia</span>
             </div>
           </div>
         </div>
