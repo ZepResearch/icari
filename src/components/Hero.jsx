@@ -137,7 +137,7 @@ export default function Hero() {
               <p className="text-gray-600">2 Days of Innovation</p>
             </div>
             <div className="text-center border-l-2">
-              <h3 className="text-2xl font-bold text-gray-900 mb-2 font-serif">Singapore</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-2 font-serif">Kuala Lumper, Malaysia</h3>
               <p className="text-gray-600">Modern, Clean, and Vibrant</p>
             </div>
             <div className="text-center border-l-2">
