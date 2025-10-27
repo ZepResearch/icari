@@ -92,7 +92,7 @@ export default function SubmissionSuccess() {
                         </div>
                         <span>
                           If accepted, you will receive further instructions on preparing your final paper and
-                          presentation for the conference in Singapore.
+                          presentation for the conference in Kuala Lumpur.
                         </span>
                       </li>
                     </ul>

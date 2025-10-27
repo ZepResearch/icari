@@ -5,7 +5,7 @@ const CONFERENCE_FAQS = [
   {
     question: "When and where is the International Conference on AI & Robotics Innovation taking place?",
     answer:
-      "The conference will be held on November 14th - 15th, 2025, in Kuala Lumper, Malaysia. This premier venue offers state-of-the-art facilities and is easily accessible from major international airports.",
+      "The conference will be held on November 14th - 15th, 2025, in Kuala Lumpur, Malaysia. This premier venue offers state-of-the-art facilities and is easily accessible from major international airports.",
     category: "Event Details",
   },
  

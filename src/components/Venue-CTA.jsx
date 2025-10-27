@@ -32,7 +32,7 @@ export default function CTAVenueCard() {
             </Link>
             <div className="flex items-center text-gray-600">
               <MapPin className="w-4 h-4 mr-2" />
-              <span> Kuala Lumper, Malaysia,[Detail venue will declare soon]</span>
+              <span> Kuala Lumpur, Malaysia,[Detail venue will declare soon]</span>
             </div>
           </div>
         </div>

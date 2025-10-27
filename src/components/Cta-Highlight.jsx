@@ -15,7 +15,7 @@ function CtaHighlight() {
     {
       id: 'venue',
       title: 'Venue',
-      description: 'Join us in Kuala Lumper, Malaysia  for the in-person experience or participate virtually through our interactive conference platform.',
+      description: 'Join us in Kuala Lumpur, Malaysia  for the in-person experience or participate virtually through our interactive conference platform.',
       href: '/venue',
       icon: <MapPin/>
     },

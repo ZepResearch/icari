@@ -187,7 +187,7 @@ export default function VenuePage() {
                     <MapPin className="w-5 h-5 text-orange-500 mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">Address</p>
-                      <p className="text-gray-600">Kuala Lumper, Malaysia </p>
+                      <p className="text-gray-600">Kuala Lumpur, Malaysia </p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
