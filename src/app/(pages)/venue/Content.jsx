@@ -34,7 +34,7 @@ export default function VenuePage() {
                 <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-11 mb-4">
                   EXPERIENCE THE
                   <br />
-                  <span className="text-orange-500/90 uppercase">FUTURE IN ¸</span>
+                  <span className="text-orange-500/90 uppercase">FUTURE IN Kuala Lumpur</span>
                 </h1>
               </div>
 
@@ -187,7 +187,7 @@ export default function VenuePage() {
                     <MapPin className="w-5 h-5 text-orange-500 mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">Address</p>
-                      <p className="text-gray-600">Kuala Lumpur, Malaysia </p>
+                      <p className="text-gray-600">Holiday Inn Express, Kuala Lumpur City Centre, an IHG Hotel,Kuala Lumpur, Malaysia</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
@@ -231,7 +231,7 @@ export default function VenuePage() {
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Interactive Map</h3>
               <div className="w-full h-96 rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59313.55594260631!2d101.64993908795587!3d3.137023714149642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362abd08e7d3%3A0x232e1ff540d86c99!2sKuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2sin!4v1761281310912!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7871516929176!2d101.70610431091363!3d3.1507687531286925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362aba001bed%3A0x1a95bd9e2e38cad4!2sHoliday%20Inn%20Express%20Kuala%20Lumpur%20City%20Centre%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sin!4v1734587277384!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
