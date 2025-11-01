@@ -3,9 +3,6 @@ import pb from "@/lib/pocketbase"
 import { Calendar, Clock, FileText, UserCheck } from "lucide-react"
 import { useEffect, useState } from "react"
 
-// Define the type for our timeline data
-
-
 // Icon mapping based on title keywords
 const getIconForTitle = (title) => {
   const lowerTitle = title.toLowerCase()
@@ -15,9 +12,7 @@ const getIconForTitle = (title) => {
   return Clock
 }
 
-// Server Component to fetch data
-
-export default  function ConferenceTimeline() {
+export default function ConferenceTimeline() {
   const [timelineItems, setTimelineItems] = useState([])
 
   useEffect(() => {
@@ -38,8 +33,6 @@ export default  function ConferenceTimeline() {
       pb.collection('ICAIR_dates').unsubscribe('*')
     }
   }, [])
-
-
 
   return (
     <div className="min-h-full bg-gray-50 py-24 px-4">
@@ -71,20 +64,29 @@ export default  function ConferenceTimeline() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {timelineItems.map((item, index) => {
             const IconComponent = getIconForTitle(item.title)
+            const isExpired = index === 0
+            
             return (
               <div key={item.id} className="group">
                 {/* Card with angled corners */}
-                <div className="relative bg-white border-2 border-gray-200 hover:border-orange-300 transition-all duration-300 h-72">
+                <div className={`relative bg-white border-2 ${isExpired ? 'border-gray-300 opacity-75' : 'border-gray-200 hover:border-orange-300'} transition-all duration-300 h-72`}>
                   {/* Angled top corners */}
-                  <div className="absolute top-0 left-0 w-6 h-6 bg-gray-50 transform rotate-45 -translate-x-3 -translate-y-3 border-l-2 border-t-2 border-gray-200 group-hover:border-orange-300 transition-all duration-300"></div>
-                  <div className="absolute top-0 right-0 w-6 h-6 bg-gray-50 transform rotate-45 translate-x-3 -translate-y-3 border-r-2 border-t-2 border-gray-200 group-hover:border-orange-300 transition-all duration-300"></div>
+                  <div className={`absolute top-0 left-0 w-6 h-6 bg-gray-50 transform rotate-45 -translate-x-3 -translate-y-3 border-l-2 border-t-2 ${isExpired ? 'border-gray-300' : 'border-gray-200 group-hover:border-orange-300'} transition-all duration-300`}></div>
+                  <div className={`absolute top-0 right-0 w-6 h-6 bg-gray-50 transform rotate-45 translate-x-3 -translate-y-3 border-r-2 border-t-2 ${isExpired ? 'border-gray-300' : 'border-gray-200 group-hover:border-orange-300'} transition-all duration-300`}></div>
 
                   {/* Card Content */}
-                  <div className="p-6 h-full flex flex-col">
+                  <div className="p-6 h-full flex flex-col relative">
+                    {/* Strike-through line for expired item */}
+                    {isExpired && (
+                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <div className="w-full h-0.5 bg-red-500 transform -rotate-12"></div>
+                      </div>
+                    )}
+
                     {/* Icon */}
                     <div className="mb-6">
-                      <div className="w-12 h-12 border-2 border-gray-300 rounded flex items-center justify-center">
-                        <IconComponent className="w-6 h-6 text-gray-600 group-hover:text-orange-500" />
+                      <div className={`w-12 h-12 border-2 ${isExpired ? 'border-gray-400' : 'border-gray-300'} rounded flex items-center justify-center`}>
+                        <IconComponent className={`w-6 h-6 ${isExpired ? 'text-gray-400' : 'text-gray-600 group-hover:text-orange-500'}`} />
                       </div>
                     </div>
 
@@ -92,18 +94,25 @@ export default  function ConferenceTimeline() {
                     <div className="mb-6">
                       <div className="flex gap-1">
                         {[...Array(8)].map((_, i) => (
-                          <div key={i} className="w-1 h-8 bg-gray-200 transform skew-x-12"></div>
+                          <div key={i} className={`w-1 h-8 ${isExpired ? 'bg-gray-300' : 'bg-gray-200'} transform skew-x-12`}></div>
                         ))}
                       </div>
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-xl font-bold text-gray-900 mb-4 leading-tight">{item.title.toUpperCase()}</h3>
+                    <h3 className={`text-xl font-bold ${isExpired ? 'text-gray-500 line-through' : 'text-gray-900'} mb-4 leading-tight`}>
+                      {item.title.toUpperCase()}
+                    </h3>
 
                     {/* Date */}
                     <div className="mb-4">
-                      <p className="text-orange-500 font-bold text-lg">{item.date}</p>
+                      <p className={`font-bold text-lg ${isExpired ? 'text-gray-400 line-through' : 'text-orange-500'}`}>
+                        {item.date}
+                      </p>
                     </div>
+
+                    {/* Expired label */}
+                   
 
                     {/* Description */}
                     {/* <div className="flex-grow">
@@ -112,8 +121,8 @@ export default  function ConferenceTimeline() {
                   </div>
 
                   {/* Angled bottom corners */}
-                  <div className="absolute bottom-0 left-0 w-6 h-6 bg-gray-50 transform rotate-45 -translate-x-3 translate-y-3 border-l-2 border-b-2 border-gray-200 group-hover:border-orange-300 transition-all duration-300"></div>
-                  <div className="absolute bottom-0 right-0 w-6 h-6 bg-gray-50 transform rotate-45 translate-x-3 translate-y-3 border-r-2 border-b-2 border-gray-200 group-hover:border-orange-300 transition-all duration-300"></div>
+                  <div className={`absolute bottom-0 left-0 w-6 h-6 bg-gray-50 transform rotate-45 -translate-x-3 translate-y-3 border-l-2 border-b-2 ${isExpired ? 'border-gray-300' : 'border-gray-200 group-hover:border-orange-300'} transition-all duration-300`}></div>
+                  <div className={`absolute bottom-0 right-0 w-6 h-6 bg-gray-50 transform rotate-45 translate-x-3 translate-y-3 border-r-2 border-b-2 ${isExpired ? 'border-gray-300' : 'border-gray-200 group-hover:border-orange-300'} transition-all duration-300`}></div>
                 </div>
               </div>
             )
