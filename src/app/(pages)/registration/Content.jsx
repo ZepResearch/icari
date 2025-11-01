@@ -38,7 +38,7 @@ export default function RegistrationPage() {
       foreign: [
         {
           category: "Academicians",
-          earlyBird: { price: 319, currency: "USD" },
+          // earlyBird: { price: 319, currency: "USD" },
           regular: { price: 359, currency: "USD" },
           scopusQ3Q4: { price: 859, currency: "USD" },
           scopusQ1Q2: { price: 1399, currency: "USD" },
@@ -53,7 +53,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Students",
-          earlyBird: { price: 219, currency: "USD" },
+          // earlyBird: { price: 219, currency: "USD" },
           regular: { price: 259, currency: "USD" },
           scopusQ3Q4: { price: 759, currency: "USD" },
           scopusQ1Q2: { price: 1299, currency: "USD" },
@@ -68,7 +68,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Listeners",
-          earlyBird: { price: 169, currency: "USD" },
+          // earlyBird: { price: 169, currency: "USD" },
           regular: { price: 199, currency: "USD" },
           scopusQ3Q4: null,
           scopusQ1Q2: null,
@@ -84,7 +84,7 @@ export default function RegistrationPage() {
       indian: [
         {
           category: "Academicians",
-          earlyBird: { price: 9500, currency: "INR" },
+          // earlyBird: { price: 9500, currency: "INR" },
           regular: { price: 10000, currency: "INR" },
           scopusQ3Q4: { price: 40000, currency: "INR" },
           scopusQ1Q2: { price: 100000, currency: "INR" },
@@ -99,7 +99,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Students",
-          earlyBird: { price: 8500, currency: "INR" },
+          // earlyBird: { price: 8500, currency: "INR" },
           regular: { price: 9000, currency: "INR" },
           scopusQ3Q4: { price: 38000, currency: "INR" },
           scopusQ1Q2: { price: 98000, currency: "INR" },
@@ -114,7 +114,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Listeners",
-          earlyBird: { price: 3000, currency: "INR" },
+          // earlyBird: { price: 3000, currency: "INR" },
           regular: { price: 4000, currency: "INR" },
           scopusQ3Q4: null,
           scopusQ1Q2: null,
@@ -132,7 +132,7 @@ export default function RegistrationPage() {
       foreign: [
         {
           category: "Students",
-          earlyBird: { price: 149, currency: "USD" },
+          // earlyBird: { price: 149, currency: "USD" },
           regular: { price: 169, currency: "USD" },
           scopusQ3Q4: { price: 669, currency: "USD" },
           scopusQ1Q2: { price: 1199, currency: "USD" },
@@ -147,7 +147,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Academicians",
-          earlyBird: { price: 199, currency: "USD" },
+          // earlyBird: { price: 199, currency: "USD" },
           regular: { price: 219, currency: "USD" },
           scopusQ3Q4: { price: 719, currency: "USD" },
           scopusQ1Q2: { price: 1099, currency: "USD" },
@@ -162,7 +162,7 @@ export default function RegistrationPage() {
         },
         {
           category: "Listeners",
-          earlyBird: { price: 99, currency: "USD" },
+          // earlyBird: { price: 99, currency: "USD" },
           regular: { price: 119, currency: "USD" },
           scopusQ3Q4: null,
           scopusQ1Q2: null,
@@ -335,12 +335,12 @@ export default function RegistrationPage() {
           </div>
           
           <div className="space-y-2">
-            <div className="flex justify-between items-center">
+            {/* <div className="flex justify-between items-center">
               <span className="text-sm text-gray-800">Early Bird:</span>
               <span className="text-lg font-bold text-black">
                 {getCurrencySymbol(categoryData.earlyBird.currency)}{categoryData.earlyBird.price}
               </span>
-            </div>
+            </div> */}
             <div className="flex justify-between items-center">
               <span className="text-sm text-gray-800">Regular:</span>
               <span className="text-lg font-bold text-black">
@@ -393,13 +393,13 @@ export default function RegistrationPage() {
           </ul>
 </div>
           <div className="space-y-2">
-            <Button
+            {/* <Button
               onClick={() => handleTicketSelect(createTicketFromPricing(categoryData, "earlyBird", participantType, presentationType))}
               className="w-full bg-gradient-to-r from-rose-400 to-orange-300 text-white rounded-full"
             >
               <CreditCard className="mr-2 h-4 w-4 text-white" />
               Early Bird - {getCurrencySymbol(categoryData.earlyBird.currency)}{categoryData.earlyBird.price}
-            </Button>
+            </Button> */}
             <Button
               onClick={() => handleTicketSelect(createTicketFromPricing(categoryData, "regular", participantType, presentationType))}
               className="w-full bg-gradient-to-r from-rose-400 to-orange-300 text-white rounded-full"
