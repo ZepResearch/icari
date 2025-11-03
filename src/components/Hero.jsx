@@ -34,6 +34,7 @@ export default function Hero() {
               <br />
               <span className="text-orange-500">AI & Robotics</span> Innovation
             </h1>
+            <h2 className=" font-bold text-white bg-gradient-to-r from-orange-400 via-red-500 to-yellow-400 px-4 max-w-xs rounded-md text-center py-1 drop-shadow-lg hover:drop-shadow-xl">ISBN No:  978-81-983609-7-7</h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <Link href="/registration">
@@ -103,6 +104,9 @@ export default function Hero() {
             <p className="text-sm text-gray-700 leading-relaxed">
            <span className="font-semibold"> "RobotechSummit</span>  is where tomorrow's technology becomes today's reality. We're not just discussing the future - we're building it together.
            " </p>
+          </div>
+          <div>
+           
           </div>
           {/* <div className="absolute top-96 right-0 lg:right-10 max-w-xs bg-white/90 backdrop-blur-sm p-6 rounded-lg shadow-lg border z-30">
             <div className="text-sm text-gray-700 leading-relaxed">
