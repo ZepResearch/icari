@@ -47,7 +47,7 @@ function About() {
               </p>
 
               <p className="text-lg leading-relaxed">
-                Join us in Singapore for an immersive two-day experience featuring keynote speeches, panel
+                Join us in Kuala Lumpur, Malaysia for an immersive two-day experience featuring keynote speeches, panel
                 discussions, workshops, and networking opportunities with global leaders in the field.
               </p>
 

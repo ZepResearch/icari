@@ -90,7 +90,7 @@ export default function VenuePage() {
                 
                   <div className="text-right">
                     <p className="text-xs text-gray-600 leading-relaxed">
-                      Located in the heart of Singapore's business district, our venue offers unparalleled access to the
+                      Located in the heart of Kuala Lumpur, Malaysia business district, our venue offers unparalleled access to the
                       city's innovation ecosystem and world-class amenities...
                     </p>
                   </div>
@@ -201,7 +201,7 @@ export default function VenuePage() {
                     <Car className="w-5 h-5 text-orange-500 mt-1" />
                     <div>
                       <p className="font-semibold text-gray-900">Transportation</p>
-                      <p className="text-gray-600">5 minutes from Bayfront MRT Station</p>
+                      <p className="text-gray-600">Approximately a 5-7 minute walk from the Raja Chulan Monorail Station.</p>
                     </div>
                   </div>
                 </div>
@@ -211,16 +211,16 @@ export default function VenuePage() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Getting There</h3>
                 <div className="space-y-3 text-sm">
                   <div>
-                    <p className="font-semibold text-gray-900">From Changi Airport</p>
-                    <p className="text-gray-600">30 minutes by taxi or MRT (East West Line to Bayfront)</p>
+                    <p className="font-semibold text-gray-900">From Kuala Lumpur International Airport (KLIA / KLIA2):</p>
+                    <p className="text-gray-600">By Taxi/Ride-hailing (e.g., Grab): This is the most direct route, taking approximately 45-60 minutes depending on traffic.</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">By MRT</p>
-                    <p className="text-gray-600">Bayfront Station (Circle & Downtown Lines) - 5 min walk</p>
+                    <p className="font-semibold text-gray-900">By Train</p>
+                    <p className="text-gray-600">Take the KLIA Ekspres train to KL Sentral station (approx. 30 minutes). From KL Sentral, you can take a 10-15 minute taxi/Grab ride or transfer to the KL Monorail line and travel to the Raja Chulan station.</p>
                   </div>
                   <div>
-                    <p className="font-semibold text-gray-900">By Car</p>
-                    <p className="text-gray-600">Valet parking available, self-parking at Venue</p>
+                    <p className="font-semibold text-gray-900">By Monorail / MRT</p>
+                    <p className="text-gray-600">The Bukit Bintang station (Kajang Line) is also nearby, about a 10-15 minute walk</p>
                   </div>
                 </div>
               </Card>
