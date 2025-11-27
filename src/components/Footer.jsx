@@ -86,7 +86,7 @@ const Footer = () => {
         </div>
             <p className="text-gray-300 mb-4">
               International Conference on AI & Robotics Innovation - Shaping the future of technology through
-              collaborative research and innovation .
+              collaborative research and innovation
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="https://www.facebook.com/profile.php?id=61561809783777" aria-label="Facebook" className="text-orange-400">
