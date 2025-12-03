@@ -35,6 +35,8 @@ const navLinks = [
   },
   { title: 'COMMITTEE', href: '/committee' },
   { title: 'SUBMISSION', href: '/submission' },
+  { title: 'GALLERY', href: '/gallery' },
+
   { title: 'JOURNAL', href: '/journals' },
   { title: 'VENUE', href: '/venue' },
   { title: 'AWARDS', href: '/awards' },
@@ -45,7 +47,7 @@ const navLinks = [
 function Nav() {
   return (
     <div className="max-w-screen-2xl mx-auto">
-      <header className="flex items-center justify-between px-6 py-4 lg:px-12">
+      <header className="flex items-center justify-between px-6 py-4 lg:px-3">
           <Link href={"/"}>
         <div className="flex items-center space-x-2">
           {/* <div className="w-10 h-10 bg-gray-900 rounded-lg flex items-center justify-center"> */}
@@ -57,7 +59,7 @@ function Nav() {
           </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-7 bg-gray-50 px-8 py-3 rounded-full border text-xs">
+        <nav className="hidden md:flex items-center space-x-7 bg-gray-50 px-2 py-2 rounded-full border text-xs">
           <NavigationMenu>
             <NavigationMenuList>
               {navLinks.map((link) =>
