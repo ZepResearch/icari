@@ -64,7 +64,7 @@ function VideoSection({ videos }) {
 
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
         {videos.map((video) => (
           <div
             key={video.id}
@@ -167,15 +167,15 @@ const conferenceVideos = [
   {
     id: "video1",
     title: "AI & Robotics Innovation 2024 | Day 1 Highlights | Full Video",
-    thumbnail: "/gallery/thubnail1.jpg?height=400&width=600",
-    videoUrl: "https://www.youtube.com/embed/jQsiUOr53Bo",
+    thumbnail: "/gallery/thumbnail.jpg",
+    videoUrl: "https://www.youtube.com/embed/jR12HcQLAA4",
   },
-  {
-    id: "video2",
-    title: "AI & Robotics Conference Highlights || International Event",
-    thumbnail: "/gallery/thubnail2.jpg?height=400&width=600",
-    videoUrl: "https://www.youtube.com/embed/B49Gm3b9VgA",
-  },
+  // {
+  //   id: "video2",
+  //   title: "AI & Robotics Conference Highlights || International Event",
+  //   thumbnail: "/gallery/thubnail2.jpg?height=400&width=600",
+  //   videoUrl: "https://www.youtube.com/embed/jR12HcQLAA4",
+  // },
 ]
 
 export default function Gallery() {
@@ -233,7 +233,7 @@ AI & Robotics Innovation
           </section> */}
 
           {/* Video Section - Commented out */}
-          {/* <section className="bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 rounded-2xl p-6 md:p-8 shadow-xl border border-orange-100 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-200/50">
+          <section className="bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 rounded-2xl p-6 md:p-8 shadow-xl border border-orange-100 transition-all duration-300 hover:shadow-2xl hover:shadow-orange-200/50">
             <div>
               <div className="inline-block px-3 py-1 mb-3 text-xs font-semibold tracking-wider text-white bg-gradient-to-r from-orange-400 via-red-500 to-yellow-400 rounded-full">
                 FEATURED MEDIA
@@ -247,7 +247,7 @@ AI & Robotics Innovation
             </div>
 
             <VideoSection videos={conferenceVideos} />
-          </section> */}
+          </section>
         </div>
 
         <footer className="mt-20 text-center text-gray-600">
